@@ -15,8 +15,9 @@ REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJ
 ## Problem 01! - Fixed!
   - 11ty copies everything into the public dir? 
   > Fixed by changing input and output via the method instead of named export. (See link: https://  www.11ty.dev/docs/config/#configuration-3)
-## Problem 02!
+## Problem 02! - Fixed!
   - 11ty builds the page but it is not displaying it in the browser. It only displays "Cannot GET /" and the title says "Error".
+  > Fixed by either using index.html or using 'link: "/"' in page relelations section.
 
 # Project Summary
 

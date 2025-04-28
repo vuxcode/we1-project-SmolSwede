@@ -1,6 +1,7 @@
 ---
 layout: layout.html
 title: SWBI - Home Page
+link: "/"
 ---
 
 ### P1
