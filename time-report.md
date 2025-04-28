@@ -4,5 +4,5 @@
 
 For example: 
 
-- 2022-10-25 13:00 Worked for 1 hour.
-  - *List the things you have done.*
+## 2025-04-28 10.20 | Project Start / 11ty Set up
+  - Created the initial 11ty configuration and the foundation to build upon.

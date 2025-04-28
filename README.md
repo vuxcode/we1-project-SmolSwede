@@ -12,6 +12,12 @@ REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJ
 
 > You can use this section of the file to keep notes about your project as you work on it
 
+## Problem 01! - Fixed!
+  - 11ty copies everything into the public dir? 
+  > Fixed by changing input and output via the method instead of named export. (See link: https://  www.11ty.dev/docs/config/#configuration-3)
+## Problem 02!
+  - 11ty builds the page but it is not displaying it in the browser. It only displays "Cannot GET /" and the title says "Error".
+
 # Project Summary
 
 > Before the final submission date you should include a "PROJECT SUMMARY" in this section here.
