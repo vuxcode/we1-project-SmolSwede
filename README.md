@@ -12,12 +12,14 @@ REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJ
 
 > You can use this section of the file to keep notes about your project as you work on it
 
-## Problem 01! - Fixed!
+## Problem 01! - Fixed! | 2025-04-28
   - 11ty copies everything into the public dir? 
   > Fixed by changing input and output via the method instead of named export. (See link: https://  www.11ty.dev/docs/config/#configuration-3)
-## Problem 02! - Fixed!
+## Problem 02! - Fixed! | 2025-04-28
   - 11ty builds the page but it is not displaying it in the browser. It only displays "Cannot GET /" and the title says "Error".
   > Fixed by either using index.html or using 'link: "/"' in page relelations section.
+## Thouht 01 | 2025-04-30
+  - Use 11ty:s navigation plugin for navigation between pages and on said pages. 
 
 # Project Summary
 
