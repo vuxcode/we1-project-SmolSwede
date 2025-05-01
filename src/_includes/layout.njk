@@ -10,10 +10,10 @@
       <h1>{{ title }}</h1>
     </header>
     <main>
-      {{ content }}
+      {{ content | safe }}
     </main>
     <aside>
-      {{ content | toc }}
+        {{ content | toc | safe }}
     </aside>
   </body>
 </html>
