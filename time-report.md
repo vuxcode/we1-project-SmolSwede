@@ -13,4 +13,7 @@ For example:
 ## 2025-05-01 10.40 -> |  | 
 
 
-## 2025-05-05 10.15 -> |  |
+## 2025-05-05 10.15 -> 12.00 | 1h 45min | Added navigation between pages and started on the first content page.
+ - Added navigation (hard coded) between pages.
+ - Started on the first content page (Factions).
+ - Thinking about using 11ty navigation plugin insted of hard codeing it.
