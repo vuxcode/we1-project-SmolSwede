@@ -8,12 +8,15 @@
   <body>
     <header>
       <h1>{{ title }}</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/factions/">Factions</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       {{ content | safe }}
     </main>
-    <aside>
-        {{ content | toc | safe }}
-    </aside>
   </body>
 </html>

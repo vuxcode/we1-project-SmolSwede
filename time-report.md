@@ -11,3 +11,6 @@ For example:
  - Looked at ways to achive page/content navigation as well as trying to implement parts of it.
 
 ## 2025-05-01 10.40 -> |  | 
+
+
+## 2025-05-05 10.15 -> |  |
