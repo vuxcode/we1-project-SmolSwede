@@ -12,3 +12,9 @@ For example:
 
 ## 2025-05-01 10.40 -> 11.45 | 1h 5min | TOC (Table Of Contents)
   - Managed to get the TOC and markdown-it to work as intended.
+
+
+## 2025-05-05 10.15 -> 12.00 | 1h 45min | Added navigation between pages and started on the first content page.
+ - Added navigation (hard coded) between pages.
+ - Started on the first content page (Factions).
+ - Thinking about using 11ty navigation plugin insted of hard codeing it.

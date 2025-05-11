@@ -8,15 +8,17 @@
   <body>
     <header>
       <h1>{{ title }}</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/factions/">Factions</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <!-- {{ content }} is a variable passed to the template engine in 11ty. (The content is taken from the page to be used) -->
       <!-- The safe filter is used to prevent escaping of HTML tags in the content. -->
       {{ content | safe }}
     </main>
-    <aside>
-        <!-- The toc filter is used to generate a table of contents from the content. -->
-        {{ content | toc | safe }}
-    </aside>
   </body>
 </html>
