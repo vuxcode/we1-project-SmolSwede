@@ -13,3 +13,7 @@
 ## Problem 03! - Fixed! | 2025-04-30
   - TOC (Table Of Contents) plugin wont work :(.
   > Fixed by moving the TOC plugin from elventyConfig to function(eleventyConfig) | 2025-05-01
+
+## Problem 04! - Fixed! | 2025-05-11
+  - Merge confilct due to comments added in baseLayout.njk (git says both are changed) but only one version exsisted localy.
+  > Fixed by using git console and using "git add <fileNameHere>" sence there weren't really any difference.
