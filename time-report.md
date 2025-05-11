@@ -8,6 +8,7 @@ For example:
   - Created the initial 11ty configuration and the foundation to build upon.
 
 ## 2025-04-30 12.30 -> 14.45 | 2h 15min | Navigation
- - Looked at ways to achive page/content navigation as well as trying to implement parts of it.
+  - Looked at ways to achive page/content navigation as well as trying to implement parts of it.
 
-## 2025-05-01 10.40 -> |  | 
+## 2025-05-01 10.40 -> 11.45 | 1h 5min | TOC (Table Of Contents)
+  - Managed to get the TOC and markdown-it to work as intended.
