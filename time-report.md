@@ -18,7 +18,10 @@ For example:
   - Started on the first content page (Factions).
   - Thinking about using 11ty navigation plugin insted of hard codeing it.
 
- ## 2025-05-11 08.30 -> 09.15 | 45min | Updated the missing part of time-report and resolved the following merge issue.
+## 2025-05-11 08.30 -> 09.15 | 45min | Updated the missing part of time-report and resolved the following merge issue.
   - Updated the missing part of this doc.
   - Added comments to baseLayout.njk.
   - Resolved a merge issue that came about becuase of the baseLayout comments and the previeus version not exsisting localy.
+
+## 2025-05-14 08.00 -> 09.10 | 1h 10min | Added content to content pages
+  - Added content about some of the factions pressent
