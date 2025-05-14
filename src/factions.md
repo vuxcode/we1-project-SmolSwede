@@ -22,7 +22,7 @@ title: SWBI - Factions & Colonies
   - **Mobility and communication:** Limited by reliance on horses and manual messengers
   - **Lack of magical countermeasures:** Vulnerable to supernatural tactics (if other factions regain magic)
 
-  #### Faction-by-Faction Comparison
+  #### Comparison to Other Factions
 
   ##### Versus the Colony
   - **Inferior firepower** – Cannot compete with rifles, machine guns, or mortars
@@ -107,7 +107,7 @@ title: SWBI - Factions & Colonies
   - **One of the most dangerous human land forces on the planet**
   - **Could threaten any faction except heavily entrenched or technologically superior ones**
 
-  #### Faction-by-Faction Comparison
+  #### Comparison to Other Factions
 
   ##### Versus the Colony
   - **Numerical advantage** – Larger armies possible than the colony militia
@@ -364,27 +364,374 @@ title: SWBI - Factions & Colonies
 ---
 
   ### **Dark Elves:** 
-  - Ruthless, naval raiders, assassins, slave-takers, heavy crossbows
+  #### General Overview
+
+  The Dark Elves (Druchii) are a ruthless, militaristic, and naval-oriented elven faction known for their cruelty, discipline, and aggressive tactics. Even without magic, they remain a formidable force due to their advanced martial skills, powerful ships, and brutal efficiency.
+
+  ##### Strengths
+
+  **Elite Infantry** – Highly trained, well-armed, and disciplined soldiers  
+  **Naval Supremacy** – Strong raiding fleets and boarding parties; capable of extended sea operations  
+  **Advanced Weapons** – Use of repeater crossbows, deadly in close or medium range  
+  **Shock Cavalry** – Cold One Knights and other fast-striking mounted units  
+  **Fear Tactics** – Ruthless behavior designed to demoralize enemies  
+  **Slavery and Economy** – Driven by raiding and capturing slaves; self-sustaining through exploitation
+
+  ##### Weaknesses
+
+  **Light Armor for Most Units** – Vulnerable to heavy firepower when caught in the open  
+  **Overreliance on Slaves and Pillaging** – Economy struggles without successful raids  
+  **Aggression over Strategy** – Preference for brutality can lead to overextension  
+  **Internal Division** – Infighting and cruelty can lead to leadership instability  
+  **Vulnerable Logistics** – Long campaigns far from the sea risk supply issues
+
+  #### Comparison to Other Factions
+
+  ##### Versus the Colony
+  **From the Sea:** Dangerous coastal raiders, could bypass defenses with speed and violence  
+  **On Land:** Outmatched by modern firepower and vehicles in open engagements  
+  **In Close Combat:** Devastating if they reach close range or infiltrate the colony  
+  **Naval Raids:** High threat level during surprise attacks or when defenders are distracted
+
+  ##### Versus Other Factions
+  **Versus High Elves:** Equally matched, but rely more on cruelty and fear  
+  **Versus Dwarfs:** Struggle with dwarf defenses and firepower unless ambushing  
+  **Versus Wood Elves:** Win in open field; lose in forested guerrilla scenarios  
+  **Versus Skaven:** Outclass Skaven in discipline and skill, but can be overwhelmed  
+  **Versus Beastmen:** Superior in formation; must avoid ambushes  
+  **Versus Humans (Bretonnia/Empire):** Win in lightning strikes; vulnerable to prolonged sieges or counterattacks
+
+  #### Technological Profile
+
+  **Weapons:** Repeater crossbows, curved swords, pikes, and barbed blades  
+  **Armor:** Light to medium; elite units may wear heavy scale or plate  
+  **Tactics:** Fast strikes, night raids, slave raids, naval invasions, and psychological warfare  
+  **Ships:** Sleek, fast, and equipped with boarding ramps, ballistae, and rams  
+  **Creatures:** Cold Ones (reptilian mounts), and various enslaved beasts
+
+  #### Strategic Posture
+
+  **Territorial Control:** Excellent at holding coastal strongholds and island bases  
+  **Power Projection:** High through naval strength and rapid deployment  
+  **Alliances:** Rarely ally; may make temporary pacts for mutual gain  
+  **Enemies:** Most factions; viewed with hatred by High Elves and general fear by others
+
+  #### Conclusion
+
+  The Dark Elves are a cold and efficient war machine, optimized for fast, brutal raids and psychological warfare. Their naval capabilities make them a significant threat to colonies and coastal settlements. However, they falter in prolonged ground campaigns against entrenched, technologically advanced opponents. Still, their cruelty and skill ensure they remain one of the deadliest threats in the world.
 
 ---
 
   ### **Beastmen:**
-  - Brutal raiders, ambush attacks, beast herds, no formal military
+  #### General Overview
+
+  The Beastmen are chaotic, tribal, and semi-nomadic humanoid creatures that dwell primarily in forests and wilderness. Without magic, they rely entirely on brute strength, ambush tactics, and overwhelming numbers. They are disorganized but extremely dangerous in close quarters, especially in terrain that favors guerrilla tactics.
+
+  ##### Strengths
+
+  **Ambush Tactics** – Masters of hit-and-run, forest ambushes, and nighttime raids  
+  **Brute Force** – Stronger than humans in melee combat; capable of overpowering foes quickly  
+  **High Mobility in Wilderness** – Excel in forests, mountains, and rough terrain  
+  **Fear Factor** – Savage appearance and behavior can terrify unprepared enemies  
+  **Decentralized Tribes** – Difficult to eliminate completely due to scattered warbands  
+  **Rapid Replenishment** – Breed and recruit quickly, especially after successful raids
+
+  ##### Weaknesses
+
+  **Lack of Discipline** – Poor unit cohesion; easily scattered by resistance or counterattacks  
+  **No Ranged Capability** – Almost entirely reliant on melee, with only basic javelins or thrown weapons  
+  **No Naval Power** – Cannot threaten island or coastal settlements directly  
+  **Poor Siege Capability** – Struggle to assault fortified positions  
+  **Primitive Technology** – No armor or advanced weapons beyond crude iron and wood  
+  **Infighting** – Constant power struggles between warband leaders
+
+  #### Comparison to Other Factions
+
+  ##### Versus the Colony
+  **In the Forest:** Extremely dangerous, able to ambush patrols and supply lines  
+  **On Open Ground:** Poor performance; easily cut down by firearms and vehicles  
+  **In Assaults:** Weak against bunkers, walls, and entrenched defenses  
+  **Logistical Threat:** Good at disrupting trade, movement, and harassing outposts
+
+  ##### Versus Other Factions
+  **Versus Dwarfs:** Routinely beaten in open battle but can raid mountain paths and supply trains  
+  **Versus High/Wood Elves:** Can contest Wood Elves in forested terrain; lose to High Elves in discipline and range  
+  **Versus Skaven:** Often clash in tunnels and forests; results vary based on numbers and leadership  
+  **Versus Humans (Empire/Bretonnia):** Dangerous to isolated settlements but cannot hold territory  
+  **Versus Dark Elves:** Slaughtered in naval contexts or in pitched battle, but can devastate isolated scouting parties
+
+  #### Technological Profile
+
+  **Weapons:** Crude axes, maces, clubs, and basic spears or javelins  
+  **Armor:** None to very light; rely on speed and aggression  
+  **Tactics:** Guerrilla warfare, terror raids, night ambushes, overwhelming melee rushes  
+  **Logistics:** Live off the land; no supply chains, making them unpredictable and hard to track  
+  **Creatures:** Minotaurs, Gors, Ungors, and mutated beasts add to battlefield threat
+
+  #### Strategic Posture
+
+  **Territorial Control:** Avoid permanent settlements; roam in warbands or herds  
+  **Power Projection:** High regionally, especially near forests, rivers, or wilderness zones  
+  **Alliances:** Rarely form alliances; hate civilization and order in all forms  
+  **Enemies:** All factions; especially hostile toward human settlements and elven realms
+
+  #### Conclusion
+
+  The Beastmen are a primal, ever-present threat lurking beyond the safety of civilization. Though they lack technology, naval presence, and siege ability, they excel at creating instability and fear through raids and ambushes. They are not a faction that wins wars through conquest but by attrition, fear, and relentless savagery in areas where they can control the terrain.
 
 ---
 
   ### **Skaven:**
-  - Massive swarms, sneaky, tunnelers, unpredictable war machines
+  #### General Overview
+
+  The Skaven are a subterranean race of humanoid rats that inhabit vast tunnel networks beneath the world. In this setting, they operate without magic but still retain their overwhelming numbers, fanatical ideology, and unique scavenged or alchemical technology. Driven by paranoia and ambition, they wage constant war from the shadows.
+
+  ##### Strengths
+
+  **Massive Numbers** – Swarm tactics can overwhelm most conventional forces  
+  **Tunneling Warfare** – Able to bypass surface defenses by undermining or launching surprise attacks  
+  **Unpredictable Technology** – Use unstable weapons like gas, explosives, and crude firearms  
+  **Espionage & Sabotage** – Skilled at infiltrating cities, causing disease outbreaks, or inciting unrest  
+  **Fanatical Morale (in large groups)** – Emboldened by numbers, though they break quickly if losing  
+  **Flexible Units** – Mix of expendable infantry, shock troops, and strange war machines
+
+  ##### Weaknesses
+
+  **Unstable Technology** – Their weapons and machines are prone to malfunction or explode  
+  **Lack of Discipline** – Panic and routs are common if leadership is lost  
+  **Infighting & Treachery** – Clans constantly scheme against each other, weakening unity  
+  **Weak Individual Soldiers** – One-on-one, they are no match for human or dwarf troops  
+  **Low Morale in Small Groups** – Isolated units or losing forces quickly fall apart  
+  **Poor Surface Logistics** – Supply chains are fragile if pushed away from tunnels
+
+  #### Comparison to Other Factions
+
+  ##### Versus the Colony
+  **Infiltration:** Capable of sabotaging power infrastructure, spreading disease, or spying  
+  **Direct Assaults:** May launch massive surprise attacks but struggle against well-fortified positions  
+  **Tunnels vs Defenses:** Can undermine static defenses like bunkers or artillery nests  
+  **Tech vs Tech:** Some Skaven weapons can pose real danger, but are highly unreliable
+
+  ##### Versus Other Factions
+  **Versus Dwarfs:** Natural enemies; Skaven tunnels often intersect with dwarf strongholds  
+  **Versus Elves:** Generally outmatched in skill but can overwhelm with numbers or trickery  
+  **Versus Beastmen:** Skaven are more technologically advanced; tend to win in structured engagements  
+  **Versus Empire/Bretonnia:** Can destabilize cities and provinces through sabotage and plagues  
+  **Versus Dragons & Monsters:** Fearsome but often flee or are devoured in open conflict
+
+  #### Technological Profile
+
+  **Weapons:** Crude muskets, warpfire throwers, poison gas globes, explosive rat bombs  
+  **Armor:** Leather, scavenged metal plates, or none at all  
+  **Tactics:** Tunnel ambushes, overwhelming swarms, surprise artillery, disease outbreaks  
+  **Logistics:** Underground lairs, hidden stockpiles, and mobile plague carts  
+  **Creatures & Machines:** Giant rats, Rat Ogres, crude war machines, and strange contraptions
+
+  #### Strategic Posture
+
+  **Territorial Control:** Beneath the surface; vast tunnel empires under cities and forests  
+  **Power Projection:** High via subversion, ambushes, and mass attacks  
+  **Alliances:** Rare and always temporary; betrayals are inevitable  
+  **Enemies:** Everyone — especially dwarfs, elves, and humans (viewed as prey or rivals)
+
+  #### Conclusion
+
+  Skaven are an insidious threat, growing beneath the surface while undermining civilization. Though unreliable and individually weak, their strength lies in endless numbers, unpredictable weaponry, and their capacity to strike from the shadows. While they struggle in set-piece battles, their ability to destabilize entire regions through plague, sabotage, and swarm tactics makes them one of the most dangerous factions in this world.
 
 ---
 
-## **The colonies**
+  ## **The colonies**
   ### **Smol's Colony**
-  - info here
+    
+  **Description:**  
+  A technologically advanced settlement founded by humans with pre-1960s Earth technology. The colony is strategically located near a large ocean with a natural harbor, flanked by two defensible hills. The terrain includes several rivers, mixed forests, and seasonal weather patterns with harsh winters reaching as low as -40°C during storms, warm summers, and rainy autumns. It is designed for self-sufficiency, logistics, and long-term survival in a hostile world filled with fantastical factions and creatures.
+
+  #### **Government and Organization:**  
+  Civilian-led with a structured militia for defense. Engineering, logistics, and governance are prioritized, with power centralized for efficient decision-making. Supply deliveries occur twice a year.
+
+   **Economy and Infrastructure:**  
+  - Buildings use 1930s or older architectural standards with district heating  
+  - District heating spans several kilometers, using 1940s-1970s technology  
+  - Power from hydroelectric, coal, diesel generators; wind and solar considered  
+  - Could theoretically use warpstone (Skaven tech) if ethically accepted  
+  - Roads designed for tracked and wheeled military and utility vehicles  
+  - Access to fishing, small-scale farming, and trade when safe
 
 
-## **Other Creatures Present**
-- **Sea Dragons:** Large oceanic predators, dangerous to ships and coastal areas
-- **Great Eagles:** Large airborne predators, potential scouting threats
-- **Dragons:** Varying sizes, not currently near the colony, but a major future threat
+  #### **Military Capabilities:**  
+  Primary Small Arms: Ljungman AG/42 (semi-auto rifles)  
+  Support Weapons: KPV heavy machine guns (including anti-air role), Granatkastare m/41 mortars, Carl Gustaf 84 mm recoilless rifles 
 
+  Vehicles:  
+  - **PBV 302 with KPV** – Infantry mobility and fire support  
+  - **Bandvagn 202** – Year-round expedition and logistics, excellent in snow  
+  - **Bren Carrier** – Recon and light expeditionary tasks  
+  - **Volvo Raptgb 915** and **Volvo TVC** – Summer/autumn logistics vehicles  
+  - **Sikorsky H-34 helicopters** (cold-climate modified) – Light transport, SAR  
+
+  Defenses:  
+  - Coastal guns (4x 5-inch M1900) with dual coastal and anti-air capability  
+  - Fortified harbor hills with reinforced positions  
+  - KPVs in fixed and mobile anti-air platforms
+
+  #### Strategic Posture
+
+  **Strategic Strengths:**  
+  - Well-defended harbor with overlapping fields of fire  
+  - High mobility in difficult terrain (winterized vehicles)  
+  - Excellent small-unit tactics, firepower per squad superior to most natives  
+  - Technological edge over most local factions, especially in logistics and fire coordination  
+  - Year-round operations supported by diverse vehicle fleet
+
+  **Strategic Weaknesses:**  
+  - Limited manpower compared to larger native factions  
+  - Vulnerable to massed attacks or coordinated beast incursions  
+  - Supply runs limited to twice per year  
+  - No tanks or modern air force—heavily reliant on entrenched positions and mobility  
+  - Technological limits prevent rapid expansion or high-speed warfare
+
+  **Relations and Outlook:**  
+  Generally neutral but defensive. Avoids provocation but prepares extensively for threats from the Dwarfs, Elves, Skaven, Beastmen, and dragon-related attacks. Aims to develop long-term stability, adapt to local threats, and expand through cautious alliances, trade, or fortified outposts.
+
+---
+
+  ## **Other Creatures Present**
+
+  This world, while stripped of overt magic, remains populated by powerful, mythical, and dangerous creatures. Though no longer magical in origin, these beings retain their raw physical might, intelligence (in some cases), and instinctual behavior, making them critical factors in the geopolitics and warfare of the world.
+
+  ### Dragons (Game of Thrones Style)
+
+  **Description:** Ranging from the size of large horses to massive fortress-sized beasts, dragons dominate the skies where they appear. Without magic, they lack magical auras or enchanted breath but retain fire-breathing, flight, and immense durability.
+
+  **Capabilities:**
+  - Can breathe fire over large areas
+  - Devastating in hit-and-run strikes
+  - Very hard to kill with conventional weapons
+  - Intelligent and semi-predictable
+
+  **Threat Level:** Catastrophic if hostile  
+  **Habitat:** Remote mountains, ruins, and desolate regions  
+  **Factions Affected Most:** Dwarfs (actively hunted), Elves, Humans, Skaven (easy prey)
+
+  ### Sea Dragons
+
+  **Description:** Aquatic, serpentine leviathans that inhabit the open oceans and deep coastal waters. They are the oceanic equivalent of land dragons.
+
+  **Capabilities:**
+  - Can destroy ships and coastal defenses
+  - Rarely come on land
+  - Excellent ambush predators
+  - Intelligent and cunning
+
+  **Threat Level:** Strategic (naval trade routes & harbors threatened)  
+  **Habitat:** Open seas, deep fjords, underwater caves  
+  **Factions Affected Most:** High Elves, Colony, Bretonnians (naval powers)
+
+  ### Great Eagles
+
+  **Description:** Massive birds of prey, some with wingspans rivaling small aircraft. Often associated with high mountain ranges and forested cliffs.
+
+  **Capabilities:**
+  - Able to lift a man or humanoid
+  - Used as scouts or messengers (especially by Elves)
+  - Can hunt livestock or isolated groups
+  - Highly mobile and intelligent
+
+  **Threat Level:** Tactical  
+  **Habitat:** Mountains, cliffs, high forests  
+  **Factions Affected Most:** Wood Elves (allies), High Elves (allies), others as threats
+
+  ### Giant Wolves / Dire Wolves
+
+  **Description:** Larger and more intelligent than normal wolves, these beasts operate in packs and can take down even armored targets.
+
+  **Capabilities:**
+  - Coordinated pack tactics
+  - Exceptional tracking ability
+  - Dangerous to isolated outposts and scouts
+
+  **Threat Level:** Low to Medium  
+  **Habitat:** Forests, tundra, foothills  
+  **Factions Affected Most:** Colonists, rural humans, skirmishers
+
+  ### Giant Boars
+
+  **Description:** Aggressive and tough, often encountered in wildlands. Sometimes ridden by Beastmen.
+
+  **Capabilities:**
+  - High durability and charge power
+  - Can gore lightly armored troops
+  - May be used by Beastmen forces
+
+  **Threat Level:** Low (wild), Medium (if trained)  
+  **Habitat:** Forests, swamps, dense brush  
+  **Factions Affected Most:** Beastmen (as mounts), colonists, elves
+
+  ### Trolls (Non-Magical)
+
+  **Description:** Large, brutish humanoids with powerful muscles but slow intellect. Without magical regeneration, they are still very durable and dangerous in melee.
+
+  **Capabilities:**
+  - Excellent shock troops
+  - High physical resilience
+  - Poor coordination or tactics
+
+  **Threat Level:** Medium to High  
+  **Habitat:** Mountains, caves, deep forests  
+  **Factions Affected Most:** Beastmen (sometimes allied), Skaven (sometimes enslave them)
+
+  ### Giant Rats
+
+  **Description:** Swarms of oversized rats used as shock or terror troops by Skaven.
+
+  **Capabilities:**
+  - Rapid reproduction
+  - Often disease-carrying
+  - Effective in large numbers, especially in tunnels
+
+  **Threat Level:** Low to Medium  
+  **Habitat:** Urban ruins, tunnels, sewers  
+  **Factions Affected Most:** Skaven (as tools), Humans (targets)
+
+  ### Wyverns
+
+  **Description:** Similar to dragons but without fire-breathing and less intelligent. Still formidable flying predators.
+
+  **Capabilities:**
+  - Aerial mobility
+  - Dive attacks and claw strikes
+  - Sometimes ridden (e.g., by tribal or Beastman leaders)
+
+  **Threat Level:** Medium to High  
+  **Habitat:** Highlands, badlands, warm regions  
+  **Factions Affected Most:** Beastmen (riders), Colonists, Elves
+
+  ### Harpies
+
+  **Description:** Winged humanoid scavengers and predators. Often attack in flocks.
+
+  **Capabilities:**
+  - Disrupt formations and archers
+  - Fast and agile
+  - Fragile but hard to hit
+
+  **Threat Level:** Tactical nuisance  
+  **Habitat:** Cliffs, ruins, dark forests  
+  **Factions Affected Most:** Dark Elves (tame them), others as pests
+
+  ### Giant Spiders
+
+  **Description:** Enormous arachnids often found in forested or cave environments.
+
+  **Capabilities:**
+  - Stealth ambushes
+  - Web traps and venom
+  - Extremely dangerous in confined spaces
+
+  **Threat Level:** High (ambush predators)  
+  **Habitat:** Dense forests, caves, ruins  
+  **Factions Affected Most:** Wood Elves (occasional allies), Skaven, Colonists
+
+  ### Conclusion
+
+  Though magic has vanished, the natural world still teems with monstrous and apex creatures. Each demands caution, respect, or full-scale defensive planning, especially near colonies or military operations. These beasts can become wild threats, strategic deterrents, or powerful assets depending on factional interactions.

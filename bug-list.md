@@ -17,3 +17,7 @@
 ## Problem 04! - Fixed! | 2025-05-11
   - Merge confilct due to comments added in baseLayout.njk (git says both are changed) but only one version exsisted localy.
   > Fixed by using git console and using "git add <fileNameHere>" sence there weren't really any difference.
+
+## Problem 05! - Fixed! | 2025-05-14
+  - Getting MIME type error that blocks CSS from loading MIME type says "text/html" which is wrong. 
+  > Fixed by correcting the link to the style sheet

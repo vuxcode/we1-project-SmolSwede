@@ -1,9 +1,10 @@
 ---
 layout: baseLayout.njk
+style: style.css
 ---
-<aside>
+<aside class="sidebar">
   {{ content | toc | safe }}
 </aside>
-<article>
+<article class="content">
   {{ content | safe }}
 </article>

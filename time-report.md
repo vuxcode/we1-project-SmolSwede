@@ -25,3 +25,7 @@ For example:
 
 ## 2025-05-14 08.00 -> 09.10 | 1h 10min | Added content to content pages
   - Added content about some of the factions pressent
+
+## 2025-05-14 12.30 -> 14.45 | 2h 15min | Added more content and fixed CSS issue
+  - Added more content about the faktions pressent
+  - Fixed CSS issue see bug-list.md
