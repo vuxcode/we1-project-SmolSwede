@@ -30,4 +30,6 @@ For example:
   - Added more content about the faktions pressent
   - Fixed CSS issue see bug-list.md
 
-## 2025-05-15 12.20 ->  |  | 
+## 2025-05-15 12.20 -> 13.30 | 1h 10min | Started work on page layouts with grids
+  - Added content to the home/landing page
+  - Added a main- and subgrid to place the content were it should be
