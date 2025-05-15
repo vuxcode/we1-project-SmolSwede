@@ -1,0 +1,12 @@
+---
+layout: baseLayout.njk
+style: style.css
+---
+<div class="subGridContainer">
+  <aside class="sideNav">
+    {{ content | toc | safe }}
+  </aside>
+  <article class="subContent">
+    {{ content | safe }}
+  </article>
+</div>

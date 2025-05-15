@@ -1,5 +1,5 @@
 ---
-layout: contentLayout.njk
+layout: contentSidebarLayout.njk
 title: SWBI - Factions & Colonies
 ---
 

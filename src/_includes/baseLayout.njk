@@ -5,7 +5,7 @@
     <title>{{ title }}</title>
     <link rel="stylesheet" href="/style.css">
   </head>
-  <body class="gridContainer">
+  <body class="mainGridContainer">
     <header class="header">
       <h1>{{ title }}</h1>
       <nav>
@@ -15,10 +15,14 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="mainContent">
       <!-- {{ content }} is a variable passed to the template engine in 11ty. (The content is taken from the page to be used) -->
       <!-- The safe filter is used to prevent escaping of HTML tags in the content. -->
       {{ content | safe }}
     </main>
+    <footer class="footer">
+      <p>&copy; 2025 SmolSwede</p>
+      <p><em>Powered by logistics, reason, and 20th-century steel.</em></p>
+    </footer>
   </body>
 </html>

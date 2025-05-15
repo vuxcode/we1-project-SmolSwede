@@ -1,22 +1,40 @@
-.gridContainer {
+.mainGridContainer {
   display: grid;
-  grid-template: 
-  "header header header"
-  "sidebar main main"
-  "footer footer footer";
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "header"
+  "main"
+  "footer";
+}
+.subGridContainer {
+  display: grid;
+  grid-template-columns: 330px auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "sidebar subContent";
 }
 .header {
   grid-area: header;
   justify-self: start;
 }
+.footer {
+  grid-area: footer;
+  justify-self: center;
+  text-align: center;
+}
 .sideNav {
   grid-area: sidebar;
   justify-self: start;
+  background-color: bisque;
 }
 .mainContent {
   grid-area: main;
-  justify-self: center;
+  justify-self: start;
+  background-color: lightblue;
 }
-body {
-  background-color: aqua;
+.subContent {
+  grid-area: subContent;
+  justify-self: start;
+  background-color: lightgreen;
 }

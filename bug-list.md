@@ -21,3 +21,7 @@
 ## Problem 05! - Fixed! | 2025-05-14
   - Getting MIME type error that blocks CSS from loading MIME type says "text/html" which is wrong. 
   > Fixed by correcting the link to the style sheet
+
+## Problem 06! - Fixed! | 2025-05-15
+  - Grid doesn't want to work as inteded. It puts both the side nav bar and the content in the same grid area.
+  > Fixed by using a main- and subgrid instead of one grid.

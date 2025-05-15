@@ -29,3 +29,5 @@ For example:
 ## 2025-05-14 12.30 -> 14.45 | 2h 15min | Added more content and fixed CSS issue
   - Added more content about the faktions pressent
   - Fixed CSS issue see bug-list.md
+
+## 2025-05-15 12.20 ->  |  | 
