@@ -1,7 +1,15 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #d3d3d3;
+  margin: 0;
+}
 .mainGridContainer {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: auto;
+  grid-template-rows: 50px auto auto;
   grid-template-areas: 
   "header"
   "main"
@@ -15,26 +23,77 @@
   "sidebar subContent";
 }
 .header {
+  margin: 0;
+  display: inline;
   grid-area: header;
   justify-self: start;
+  background-color: #333;
+  border-bottom: 3px solid #ff5f2f;
+  width: 100%;
 }
 .footer {
   grid-area: footer;
   justify-self: center;
   text-align: center;
+  background-color: #333;
+  color: #ff5f2f;
+  width: 100%;
+  border-top: #ff5f2f 3px solid;
 }
 .sideNav {
   grid-area: sidebar;
   justify-self: start;
-  background-color: bisque;
+  background-color: #474747;
+  color: #ff5f2f;
+  border-right: #ff5f2f 3px solid;
+  padding: 10px;
+}
+.sideNav a {
+  color: #ff5f2f;
+}
+.sideNav a:hover {
+  color: #d3d3d3;
 }
 .mainContent {
   grid-area: main;
   justify-self: start;
-  background-color: lightblue;
 }
 .subContent {
   grid-area: subContent;
   justify-self: start;
-  background-color: lightgreen;
+  text-align: center;
+}
+.subContent li {
+  list-style-type: none;
+}
+.navbar {
+  margin: 0;
+  overflow: hidden;
+}
+.navbar h1 {
+  margin: 0;
+  color: #ff5f2f;
+  float: left;
+  padding: 0px 16px;
+}
+.navbar li, nav {
+  display: inline;
+  float: left;
+}
+ul {
+  margin: 0;
+}
+.navbar a {
+  display: block;
+  color: #ff5f2f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: #ff5f2f;
+  color: #333;
+}
+hr {
+  color: #ff5f2f;
 }

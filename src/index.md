@@ -46,5 +46,3 @@ By grounding the setting in material limitations and social complexity, the SWBI
 SWBI Headquarters – [worldbuild@swbi.org]  
 **Project Lead:** The Frontier Colony Division  
 **Status:** Phase 1: Establishment and Fortification
-
-*Powered by logistics, reason, and 20th-century steel.*

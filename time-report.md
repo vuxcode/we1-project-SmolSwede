@@ -33,3 +33,6 @@ For example:
 ## 2025-05-15 12.20 -> 13.30 | 1h 10min | Started work on page layouts with grids
   - Added content to the home/landing page
   - Added a main- and subgrid to place the content were it should be
+
+## 2025-05-15 14.20 -> 16.00 | 1h 40min | Added some style to have at least something to show
+  - Added colours and "finnished" the grid
