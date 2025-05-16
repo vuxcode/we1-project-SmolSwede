@@ -96,8 +96,8 @@ ul {
   background-color: #ff5f2f;
   color: #333;
 }
-button {
-  background-color: #333;
+button, .backToTop {
+  background-color: #474747;
   color: #ff5f2f;
   padding: 14px 16px;
   font-weight: bold;
@@ -105,12 +105,12 @@ button {
   border-bottom: 3px solid #ff5f2f;
   border-radius: 2px;
 }
-button:hover {
+button:hover, .backToTop:hover {
   background-color: #ff5f2f;
   color: #333;
   font-weight: bold;
   border: none;
-  border-bottom: 3px solid #333;
+  border-bottom: 3px solid #474747;
 }
 .contactForm {
   max-width: 800px;
@@ -142,4 +142,14 @@ ol {
 hr {
   color: #ff5f2f;
   width: 90%;
+}
+.backToTop {
+  text-decoration: none;
+  text-align: center;
+  position: fixed;
+  bottom: 20px;
+  float: right;
+  right: 2%;
+  left: 90%;
+  
 }
