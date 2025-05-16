@@ -36,3 +36,6 @@ For example:
 
 ## 2025-05-15 14.20 -> 16.00 | 1h 40min | Added some style to have at least something to show
   - Added colours and "finnished" the grid
+
+## 2025-05-16 08.50 ->  |  | Addning more content and embeding Spotify lists
+  - Added world-Building.html and embeded my world-building music list as well as a world-building podcast

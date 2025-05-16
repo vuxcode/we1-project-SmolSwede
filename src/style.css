@@ -48,7 +48,7 @@ body {
   border-right: #ff5f2f 3px solid;
   padding: 10px;
 }
-.sideNav a {
+.sideNav a, a {
   color: #ff5f2f;
 }
 .sideNav a:hover {
@@ -62,6 +62,8 @@ body {
   grid-area: subContent;
   justify-self: start;
   text-align: center;
+  min-height: 84.9vh;
+  padding: 25px;
 }
 .subContent li {
   list-style-type: none;
@@ -96,4 +98,5 @@ ul {
 }
 hr {
   color: #ff5f2f;
+  width: 90%;
 }
