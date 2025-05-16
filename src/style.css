@@ -56,13 +56,13 @@ body {
 }
 .mainContent {
   grid-area: main;
-  justify-self: start;
+  justify-self: center;
 }
 .subContent {
   grid-area: subContent;
   justify-self: start;
   text-align: center;
-  min-height: 84.9vh;
+  min-height: 81.02vh;
   padding: 25px;
 }
 .subContent li {
@@ -95,6 +95,46 @@ ul {
 .navbar a:hover {
   background-color: #ff5f2f;
   color: #333;
+}
+button {
+  background-color: #333;
+  color: #ff5f2f;
+  padding: 14px 16px;
+  font-weight: bold;
+  border: none;
+  border-bottom: 3px solid #ff5f2f;
+  border-radius: 2px;
+}
+button:hover {
+  background-color: #ff5f2f;
+  color: #333;
+  font-weight: bold;
+  border: none;
+  border-bottom: 3px solid #333;
+}
+.contactForm {
+  max-width: 800px;
+  margin: auto;
+  background-color: #adadad;
+  padding: 30px;
+  border-left: 3px solid #ff5f2f;
+  border-right: 3px solid #ff5f2f;
+}
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #474747;
+  border-radius: 2px;
+}
+textarea {
+  height: 240px;
+  resize: none;
 }
 hr {
   color: #ff5f2f;

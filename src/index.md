@@ -6,6 +6,7 @@ title: SWBI - Home Page
 # Welcome to SWBI: Smols World-Building Initiative
 
 **Project Name:** *The Frontier Colony Initiative*  
+**Status:** Phase 1: Establishment and Fortification.
 **Setting:** A grounded, high-stakes colonization project in a vast fantasy world filled with danger, opportunity, and deep historical echoes.
 
 ---
@@ -41,8 +42,3 @@ SWBI encourages deliberate, layered storytelling. The colony is not a power fant
 By grounding the setting in material limitations and social complexity, the SWBI approach fosters immersive realism. Every supply run matters. Every new neighbor brings risk. And every winter, the people must fight not just for dominance—but for survival.
 
 ---
-
-**Contact:**  
-SWBI Headquarters – [worldbuild@swbi.org]  
-**Project Lead:** The Frontier Colony Division  
-**Status:** Phase 1: Establishment and Fortification
