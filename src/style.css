@@ -136,6 +136,9 @@ textarea {
   height: 240px;
   resize: none;
 }
+ol {
+  list-style: lower-latin;
+}
 hr {
   color: #ff5f2f;
   width: 90%;

@@ -41,3 +41,6 @@ For example:
   - Added world-Building.html and embeded my world-building music list as well as a world-building podcast
   - Added theColonies.md with information about the colonies pressent
   - Added a Contact page with a contact form (non fucntional as in not sending emails)
+
+## 2025-05-16 13.45 -> 15.00 | 1h 15min | Small toutch up pass
+  - Went over the different pages and looked for inconsistensice or major misstakes
