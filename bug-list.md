@@ -25,3 +25,7 @@
 ## Problem 06! - Fixed! | 2025-05-15
   - Grid doesn't want to work as inteded. It puts both the side nav bar and the content in the same grid area.
   > Fixed by using a main- and subgrid instead of one grid.
+
+## Problem 07! - Fixed! | 2025-05-21
+  - Image addon for 11ty and markdown-it make thier on BS file paths and breakes everything >:(
+  > Fixed by moving the pictures from a Markdown file to a HTML file. So pictures now reside in worldBuilding insted of theColonies.
