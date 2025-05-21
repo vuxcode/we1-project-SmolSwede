@@ -9,6 +9,8 @@ const markdownIt = require("markdown-it");
 // This is a plugin for markdown-it that adds syntax highlighting to the code blocks in the markdown file. It allows you to specify the language of the code block and highlights it accordingly.
 const markdownItAnchor = require("markdown-it-anchor");
 
+const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
+
 module.exports = function(eleventyConfig){
   // This is a plugin for 11ty that allows you to use markdown-it as the markdown processor. It allows you to customize the way markdown is processed and rendered.
   // It also allows you to use plugins for markdown-it, such as the anchor plugin.
@@ -19,6 +21,7 @@ module.exports = function(eleventyConfig){
 
   // This adds plugins for 11ty where the name of the plugin goes inside the brakets "addPlugin(pluginNameHere)".
   eleventyConfig.addPlugin(pluginTOC);
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin);
 
   // This points 11ty to the source directory where wverything needed to build the website is located.
   eleventyConfig.setInputDirectory("src");

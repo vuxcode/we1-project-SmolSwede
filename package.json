@@ -20,6 +20,7 @@
   "homepage": "https://github.com/vuxcode/we1-project-SmolSwede#readme",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^6.0.4",
     "eleventy-plugin-toc": "^1.1.5",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.2.0",

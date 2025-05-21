@@ -45,3 +45,7 @@ For example:
 ## 2025-05-16 13.45 -> 16.00 | 2h 15min | Small toutch up pass and added back to top button
   - Went over the different pages and looked for inconsistensice or major misstakes
   - Added back to top button
+
+## 2025-05-21 08.30 -> 11.00 | 2h 30min | Added the three requried pictures as well as updating the H1 in the header to a SVG
+  - Added three pictures (Flags on the World-building page as examples of where to start)
+  - Changed the SWBI in the header from a H1 to a SVG
