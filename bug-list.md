@@ -28,4 +28,7 @@
 
 ## Problem 07! - Fixed! | 2025-05-21
   - Image addon for 11ty and markdown-it make thier on BS file paths and breakes everything >:(
-  > Fixed by moving the pictures from a Markdown file to a HTML file. So pictures now reside in worldBuilding insted of theColonies.
+  > Fixed by moving the pictures from a Markdown file to a HTML file. So pictures now reside in worldBuilding page insted of theColonies page.
+
+## Problem 08! | 2025-05-21
+  - Github Pages gets build errors (Seems to be a diffrence in URL structure between Github Pages and Eleventy)

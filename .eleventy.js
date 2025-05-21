@@ -30,3 +30,5 @@ module.exports = function(eleventyConfig){
   // This tells 11ty to passthtough the CSS file to the layouts (While you still link it as usual in the layouts)
   eleventyConfig.addPassthroughCopy("./src/style.css");
 };
+
+
