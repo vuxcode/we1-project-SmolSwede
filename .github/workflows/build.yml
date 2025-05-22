@@ -12,6 +12,7 @@ jobs:
         with:
           node-version: '22.x'
       - run: npm install
+      - run: npm install @11ty/eleventy # Installs eleventy
       - name: npm eleventy
         run: npx eleventy --version # Ensure eleventy is installed and executable
       - run: npm run build --if-present
