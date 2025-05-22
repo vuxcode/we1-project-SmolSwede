@@ -49,3 +49,7 @@ For example:
 ## 2025-05-21 08.30 -> 11.00 | 2h 30min | Added the three requried pictures as well as updating the H1 in the header to a SVG
   - Added three pictures (Flags on the World-building page as examples of where to start)
   - Changed the SWBI in the header from a H1 to a SVG
+
+## 2025-05-22 18.30 -> 22.10 | 3h 10min | An epic battle with GitHub Actions, GitHub Pages and some cheating with Copilot to understand both a little better
+  - Added a GitHub Actions document and wrestled with it for awhile.
+  - I also stole everyting and put it a diffrent Repo where I HAVE UNLIMITED POWER (casts ligtning all over the place) and it now works for the most part.
