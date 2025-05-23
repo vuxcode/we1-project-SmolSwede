@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- SWBI - The Colonies is a variable passed to the template engine in 11ty. (The title is taken from the page to be used) -->
+    <title>SWBI - The Colonies</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body class="mainGridContainer">
+    <header class="header navbar">
+      <svg width="100" height="35" viewBox="0 0 115.7 36.2" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#ff5f2f" stroke-width="0.25mm" fill="#ff5f2f" style="stroke:#ff5f2f;stroke-width:0.25mm;fill:#ff5f2f"><path d="M 46.45 4.7 L 51.85 4.7 A 546.117 546.117 0 0 0 53.106 8.877 A 617.954 617.954 0 0 0 53.55 10.325 Q 54.45 13.25 55.425 16.175 Q 56.4 19.1 57.375 21.925 A 467.157 467.157 0 0 0 58.331 24.669 A 391.689 391.689 0 0 0 59.25 27.25 A 100.669 100.669 0 0 0 59.988 24.431 A 125.79 125.79 0 0 0 60.7 21.375 Q 61.4 18.2 62.1 14.775 Q 62.8 11.35 63.475 7.8 Q 64.15 4.25 64.75 0.8 L 71.25 0.8 A 318.296 318.296 0 0 1 67.881 16.695 A 287.572 287.572 0 0 1 67.35 18.875 A 216.992 216.992 0 0 1 63.245 33.338 A 195.406 195.406 0 0 1 62.55 35.45 L 56.55 35.45 A 298.424 298.424 0 0 1 51.89 22.454 A 369.58 369.58 0 0 1 49 13.4 Q 47.15 19.45 45.25 24.9 A 532.917 532.917 0 0 1 41.688 34.811 A 487.566 487.566 0 0 1 41.45 35.45 L 35.45 35.45 A 191.437 191.437 0 0 1 31.165 21.032 A 212.007 212.007 0 0 1 30.625 18.875 Q 28.5 10.2 26.75 0.8 L 33.5 0.8 Q 34.1 4.2 34.775 7.75 Q 35.45 11.3 36.175 14.725 A 317.915 317.915 0 0 0 37.463 20.547 A 288.914 288.914 0 0 0 37.65 21.35 Q 38.4 24.55 39.15 27.25 A 227.332 227.332 0 0 0 40.589 23.27 A 261.286 261.286 0 0 0 41.075 21.875 Q 42.05 19.05 43 16.125 Q 43.95 13.2 44.825 10.3 A 272.086 272.086 0 0 0 46.067 6.063 A 241.894 241.894 0 0 0 46.45 4.7 Z M 22.55 2.3 L 20.6 7.4 A 14.731 14.731 0 0 0 17.376 6.082 A 16.596 16.596 0 0 0 16.875 5.95 Q 14.85 5.45 12.7 5.45 Q 10.972 5.45 9.76 5.932 A 4.609 4.609 0 0 0 8.725 6.5 Q 7.3 7.55 7.3 9.45 A 4.671 4.671 0 0 0 7.391 10.394 A 3.445 3.445 0 0 0 7.775 11.425 A 4.578 4.578 0 0 0 8.617 12.477 A 5.734 5.734 0 0 0 9.125 12.9 Q 10 13.55 11.175 14.1 A 27.265 27.265 0 0 0 12.732 14.768 A 33.422 33.422 0 0 0 13.75 15.15 A 57.791 57.791 0 0 1 16.069 16.056 A 42.784 42.784 0 0 1 18.125 16.975 A 13.74 13.74 0 0 1 20.051 18.092 A 10.966 10.966 0 0 1 21.375 19.175 Q 22.7 20.45 23.4 22.175 Q 24.019 23.7 24.091 25.79 A 16.287 16.287 0 0 1 24.1 26.35 A 10.603 10.603 0 0 1 23.652 29.515 A 8.167 8.167 0 0 1 20.775 33.625 Q 18.297 35.544 14.11 36.033 A 26.44 26.44 0 0 1 11.05 36.2 A 29.208 29.208 0 0 1 8.871 36.122 A 22.287 22.287 0 0 1 7.125 35.925 A 30.043 30.043 0 0 1 5.549 35.64 Q 4.811 35.485 4.159 35.303 A 18.13 18.13 0 0 1 3.975 35.25 A 26.971 26.971 0 0 1 2.844 34.895 Q 2.163 34.664 1.6 34.425 Q 0.6 34 0 33.65 L 1.85 28.5 Q 2.757 29.004 4.093 29.508 A 32.87 32.87 0 0 0 5.5 30 A 14.023 14.023 0 0 0 7.694 30.513 Q 9.222 30.75 11.05 30.75 A 15.937 15.937 0 0 0 12.794 30.662 Q 14.88 30.431 16 29.6 A 3.705 3.705 0 0 0 17.523 26.891 A 5.215 5.215 0 0 0 17.55 26.35 Q 17.55 25.1 17.025 24.2 A 5.05 5.05 0 0 0 16.168 23.119 A 6.471 6.471 0 0 0 15.525 22.575 A 10.48 10.48 0 0 0 14.481 21.896 Q 13.872 21.547 13.15 21.225 Q 11.75 20.6 9.95 20 Q 8.15 19.35 6.475 18.575 A 11.956 11.956 0 0 1 4.038 17.085 A 10.895 10.895 0 0 1 3.525 16.65 Q 2.25 15.5 1.475 13.9 Q 0.7 12.3 0.7 10.05 A 10.925 10.925 0 0 1 1.157 6.81 A 8.515 8.515 0 0 1 3.95 2.675 A 11.057 11.057 0 0 1 8.066 0.588 Q 9.648 0.147 11.52 0.037 A 21.788 21.788 0 0 1 12.8 0 A 24.92 24.92 0 0 1 15.688 0.159 Q 17.234 0.34 18.575 0.725 Q 21.1 1.45 22.55 2.3 Z M 76.55 34.95 L 76.55 1.3 A 54.677 54.677 0 0 1 77.984 1.06 A 65.514 65.514 0 0 1 78.9 0.925 Q 80.15 0.75 81.45 0.65 Q 82.75 0.55 84.025 0.5 A 65.099 65.099 0 0 1 85.719 0.455 A 55.642 55.642 0 0 1 86.45 0.45 A 36.812 36.812 0 0 1 90.032 0.618 A 29.884 29.884 0 0 1 92.3 0.925 A 17.331 17.331 0 0 1 94.746 1.532 A 12.91 12.91 0 0 1 96.975 2.5 A 8.496 8.496 0 0 1 99.234 4.294 A 7.85 7.85 0 0 1 100.05 5.4 Q 101.116 7.144 101.149 9.686 A 12.579 12.579 0 0 1 101.15 9.85 A 8.554 8.554 0 0 1 100.909 11.927 A 6.677 6.677 0 0 1 99.975 14.05 Q 98.8 15.8 96.7 16.85 Q 99.85 17.9 101.35 19.95 Q 102.85 22 102.85 25.15 A 11.588 11.588 0 0 1 102.394 28.495 A 8.501 8.501 0 0 1 98.95 33.175 Q 95.259 35.707 87.849 35.842 A 46.478 46.478 0 0 1 87 35.85 Q 84.25 35.85 81.45 35.675 A 32.067 32.067 0 0 1 79.134 35.45 Q 77.994 35.295 77.001 35.062 A 18.205 18.205 0 0 1 76.55 34.95 Z M 109.4 35.45 L 109.4 0.8 L 115.7 0.8 L 115.7 35.45 L 109.4 35.45 Z M 88.3 19.85 L 82.75 19.85 L 82.75 30.4 A 39.436 39.436 0 0 0 84.121 30.506 A 47.862 47.862 0 0 0 85 30.55 Q 86.2 30.6 87.2 30.6 A 26.82 26.82 0 0 0 89.419 30.512 A 21.699 21.699 0 0 0 90.825 30.35 A 11.18 11.18 0 0 0 92.296 30.033 A 8.136 8.136 0 0 0 93.725 29.475 A 5.4 5.4 0 0 0 95.117 28.472 A 4.923 4.923 0 0 0 95.675 27.8 Q 96.337 26.841 96.395 25.381 A 7.166 7.166 0 0 0 96.4 25.1 A 6.274 6.274 0 0 0 96.22 23.545 A 3.834 3.834 0 0 0 94.25 21 A 8.35 8.35 0 0 0 92.405 20.299 Q 91.486 20.061 90.385 19.949 A 20.68 20.68 0 0 0 88.3 19.85 Z M 82.75 5.8 L 82.75 14.9 L 87.2 14.9 Q 89.524 14.9 91.202 14.473 A 8.208 8.208 0 0 0 92.85 13.875 A 3.486 3.486 0 0 0 94.78 11.388 A 5.529 5.529 0 0 0 94.9 10.2 A 4.563 4.563 0 0 0 94.682 8.747 Q 94.249 7.453 92.957 6.745 A 4.843 4.843 0 0 0 92.775 6.65 A 9.054 9.054 0 0 0 90.838 5.97 Q 89.863 5.74 88.715 5.653 A 19.385 19.385 0 0 0 87.25 5.6 Q 86.004 5.6 84.998 5.637 A 41.818 41.818 0 0 0 84.675 5.65 A 33.365 33.365 0 0 0 83.877 5.695 Q 83.25 5.738 82.75 5.8 Z" vector-effect="non-scaling-stroke"></path></g></svg>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/worldBuilding/">World-Building</a></li>
+          <li><a href="/factions/">Factions</a></li>
+          <li><a href="/theColonies/">The Colonies</a></li>
+          <li><a href="/contactForm/">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="mainContent">
+      <!-- &lt;div class=&quot;subGridContainer&quot;&gt;
+  &lt;aside class=&quot;sideNav&quot;&gt;
+    &lt;nav class=&quot;toc&quot; &gt;
+        &lt;ol&gt;&lt;li&gt;&lt;a href=&quot;#smolswedes-colony&quot;&gt;SmolSwedes Colony&lt;/a&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;#foundation-and-purpose&quot;&gt;Foundation and Purpose&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#geography-and-infrastructure&quot;&gt;Geography and Infrastructure&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#military-and-defense&quot;&gt;Military and Defense&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#society-and-culture&quot;&gt;Society and Culture&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#strategic-situation&quot;&gt;Strategic Situation&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#carfels-colony&quot;&gt;Carfels colony&lt;/a&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;#foundation-and-purpose-1&quot;&gt;Foundation and Purpose&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#geography-and-infrastructure-1&quot;&gt;Geography and Infrastructure&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#military-and-defense-1&quot;&gt;Military and Defense&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#society-and-culture-1&quot;&gt;Society and Culture&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#strategic-situation-1&quot;&gt;Strategic Situation&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#umeokopings-colony&quot;&gt;UmeoKopings Colony&lt;/a&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;#foundation-and-purpose-2&quot;&gt;Foundation and Purpose&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#geography-and-infrastructure-2&quot;&gt;Geography and Infrastructure&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#military-and-defense-2&quot;&gt;Military and Defense&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#society-and-culture-2&quot;&gt;Society and Culture&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;#strategic-situation-2&quot;&gt;Strategic Situation&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ol&gt;
+      &lt;/nav&gt;
+  &lt;/aside&gt;
+  &lt;article class=&quot;subContent&quot;&gt;
+    &lt;h1 id=&quot;the-colonies-%E2%80%93-a-comprehensive-summary&quot; tabindex=&quot;-1&quot;&gt;The Colonies – A Comprehensive Summary&lt;/h1&gt;
+&lt;h2 id=&quot;smolswedes-colony&quot; tabindex=&quot;-1&quot;&gt;SmolSwedes Colony&lt;/h2&gt;
+&lt;h3 id=&quot;foundation-and-purpose&quot; tabindex=&quot;-1&quot;&gt;Foundation and Purpose&lt;/h3&gt;
+&lt;p&gt;SmolSwede was established as the industrial heart of the regional human colonization effort. Its primary directive is the extraction, processing,
+and refinement of natural resources into usable goods. This includes timber, coal, iron ore, rare minerals, natural gas, and crude oil.
+SmolSwede plays a vital role in supporting both the agriculturally-focused colony of UmeoKöping and the air-mobile, transport-heavy colony of Carfel by providing machinery,
+refined fuels, tools, mechanical parts, and basic industrial materials.&lt;/p&gt;
+&lt;p&gt;But while SmolSwede is a production colony, it is far from a bleak utilitarian sprawl. The colony combines functionality with aesthetic values, emphasizing clean lines,
+timber and stone construction, generous windows, communal spaces, and elegant integration into the surrounding landscape. Beauty is valued, not as a luxury,
+but as a core part of resilience and morale especially during the harsh winter months when the environment becomes both a challenge and a test of spirit.&lt;/p&gt;
+&lt;p&gt;From its inception, the colony emphasized self-reliance. Every workshop, refinery, or mill is backed by local repair stations, material stockpiles, and training schools.
+As supply convoys only arrive twice per year, SmolSwede&#39;s philosophy is: “Build it once. Maintain it forever.”&lt;/p&gt;
+&lt;h3 id=&quot;geography-and-infrastructure&quot; tabindex=&quot;-1&quot;&gt;Geography and Infrastructure&lt;/h3&gt;
+&lt;p&gt;The colony is situated along a large ocean, nestled in a natural harbor that provides ideal conditions for ship-based trade, defense, and fishing.
+Two hills at the harbor entrance host fortified defensive batteries, including M1900 5-inch coastal/AA guns. Inland, a network of rivers provides fresh water,
+transportation corridors, and power generation opportunities.&lt;/p&gt;
+&lt;p&gt;The terrain varies from hilly, forested regions close to the coast, with a mixture of dense pinewoods, rocky ridges, and deep valleys.
+Rich veins of iron, copper, and coal lie within the nearby highlands. A few kilometers inland, crude oil and gas deposits have been found and are actively drilled,
+with lines leading to central tank farms and small-scale refineries. The coastal access allows for the export of finished goods and the import of necessary supplies or equipment.
+Rail and heavy roadways link the mines, lumber camps, and factories with the harbor, forming a web of logistic efficiency.&lt;/p&gt;
+&lt;p&gt;Buildings follow a strict building code, emphasizing durable, weather-resistant materials, local timber, stone, and simple concrete.
+Thermal insulation is a priority due to the long, brutal winters. Central heating systems, often wood or coal-fueled, warm residential and work buildings.&lt;/p&gt;
+&lt;p&gt;Key structures include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Central Administrative Hub&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Storage Warehouses (Food, Equipment, Ammunition)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Medical and Engineering Facilities&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Workshops and Armories&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Longhouse-style Barracks&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Harbor Crane and Dockworks&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Powerhouses for Heating/Energy&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;military-and-defense&quot; tabindex=&quot;-1&quot;&gt;Military and Defense&lt;/h3&gt;
+&lt;p&gt;SmolSwede is prepared for defense but avoids militarization beyond what is necessary to protect its industries and citizens. The militia is composed of factory workers,
+engineers, miners, and drivers who rotate into defense roles when needed. Fortifications guard the harbor, refinery, and highland passes leading into the mining zones.
+The primary small arm is the Ljungman AG/42 semi-automatic rifle, supported by KPV heavy machine guns for anti-air and ground defense. For heavier firepower,
+the colony fields both &lt;strong&gt;Granatkastare m/41 mortars&lt;/strong&gt; and &lt;strong&gt;Carl Gustaf 84mm recoilless rifles&lt;/strong&gt;, creating a flexible mix of indirect and anti-armor capabilities.
+These weapons provide sufficient force against both organized humanoid factions and larger beast threats.&lt;/p&gt;
+&lt;p&gt;Vehicles include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Bandvagn 202&lt;/strong&gt;: All-terrain, year-round utility and logistics vehicle.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PBV 302 with KPV&lt;/strong&gt;: Armored troop carrier for patrols and response.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Terrängbil m/42 KP&lt;/strong&gt;: Wheeled armored personnel carrier.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Volvo Raptgb 915 &amp;amp; Volvo TVC&lt;/strong&gt;: General-purpose transport.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bren Carriers&lt;/strong&gt;: Light recon and expedition platforms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Defensive structures have been reinforced beyond the initial settlement phase, particularly at coastal choke points.
+Air defenses include several &lt;strong&gt;KPV emplacements&lt;/strong&gt; and &lt;strong&gt;M1900 5-inch guns&lt;/strong&gt; positioned for dual-use as anti-air and coastal defense.
+Radar and acoustic detection stations help monitor long-range threats. KPVs are positioned on towers, vehicle mounts,
+and emplacements throughout the area for versatile fire support.&lt;/p&gt;
+&lt;h3 id=&quot;society-and-culture&quot; tabindex=&quot;-1&quot;&gt;Society and Culture&lt;/h3&gt;
+&lt;p&gt;The colony operates under a structured, practical governance system. There is an emphasis on collective labor, seasonal preparation, and local autonomy.
+Knowledge-sharing and engineering competence are highly valued. Education is practical and field-oriented, focused on technical skills, survival, and frontier ethics.&lt;/p&gt;
+&lt;p&gt;Culturally, the colony is utilitarian and tight-knit. Winters demand cooperation, while summers allow for expansion, planting, exploration, and construction.
+Music, storytelling, and historical awareness are common in leisure time, especially during the long, dark months. There&#39;s also a growing internal mythology
+around the surrounding wilderness, the dragons, and the unknown dangers beyond the colony’s reach. Art is common in the workplace: painted murals,
+finely crafted tool handles, and decorated machine casings elevate even the most utilitarian environment.&lt;/p&gt;
+&lt;p&gt;Cultural norms include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Weekly communal meals and concerts in winter&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Honoring retired workers and master craftsmen&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Public exhibitions of machinery, inventions, and models&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Seasonal holidays tied to harvests, refinery outputs, and industrial milestones&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Trade and diplomacy with non-hostile factions are limited but possible. Scouting expeditions, interpreters, and resource-based exchanges are cautiously employed.&lt;/p&gt;
+&lt;h3 id=&quot;strategic-situation&quot; tabindex=&quot;-1&quot;&gt;Strategic Situation&lt;/h3&gt;
+&lt;p&gt;SmolSwede is a vital industrial and logistical node. Its ability to produce machine parts, refined fuel, tools, weapons, and raw materials makes it a target for
+more aggressive factions. The Skaven, in particular, pose a constant threat due to their hunger for metal, fuel, and industrial secrets.
+Beastmen and roaming warbands from other human factions may seek to plunder the colony’s stores or seize its factories intact.&lt;/p&gt;
+&lt;p&gt;Strategic advantages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Vertical integration from raw extraction to final product&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cold-weather capable transport and manufacturing&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reliable, low-maintenance equipment&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-reliance in both food and fuel for key personnel&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Strong natural defenses from hills and forest lines&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Robust trade and coordination with Carfel and UmeoKöping&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The settlers are not conquerors, but survivors and builders. If provoked, they can defend themselves. If allowed, they can grow into a powerful force capable of influencing the world around them. Over time, through careful expansion, technology application, and strategic alliances or deterrents, the colony might evolve into a strong regional power.&lt;/p&gt;
+&lt;p&gt;But until then, it remains a stubborn beacon of industrial-age defiance in a mythic, dangerous world.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;carfels-colony&quot; tabindex=&quot;-1&quot;&gt;Carfels colony&lt;/h2&gt;
+&lt;h3 id=&quot;foundation-and-purpose-1&quot; tabindex=&quot;-1&quot;&gt;Foundation and Purpose&lt;/h3&gt;
+&lt;p&gt;The colony of Carfel was founded with a clear objective: to establish a self-sustaining, strategically mobile foothold in a volatile and ancient world filled with diverse, often hostile factions. Built with pre-1960s technology, the colony&#39;s logistics, transport, and weaponry are largely based on American Cold War-era standards—with a strong emphasis on air mobility, rapid deployment, and flexible logistics inspired by the Vietnam War model.&lt;/p&gt;
+&lt;p&gt;Carfel’s settlers brought with them a doctrine prioritizing air assault, vertical resupply, and the ability to reach hard-to-access locations with helicopters and light vehicles. Limited to two supply drops per year, Carfel’s population relies heavily on pre-positioned supplies, multipurpose gear, and consistent internal production to thrive.&lt;/p&gt;
+&lt;p&gt;The site chosen was a naturally defensible coastal inlet with direct access to deep ocean, inland terrain, and river deltas. Its placement supports both amphibious and aerial operations, with room for multiple landing zones and outposts across the varied terrain.&lt;/p&gt;
+&lt;h3 id=&quot;geography-and-infrastructure-1&quot; tabindex=&quot;-1&quot;&gt;Geography and Infrastructure&lt;/h3&gt;
+&lt;p&gt;Carfel is nestled along a rugged coastline, with a natural harbor shielded on one side by a defensible hill now converted into strongpoints. Beyond the coastal edge, the land opens up into mixed forest and flat plains with smaller river branches flowing inland. The terrain offers valuable timber, clean water, fertile ground, and natural sites for airstrips, helicopter pads, and vertical-lift infrastructure.&lt;/p&gt;
+&lt;p&gt;Carfel’s building code reflects 1930s technological standards—no advanced modern materials or automated systems—but optimized for resilience and speed of construction. Reinforced concrete, sandbag structures, and locally quarried stone are common. Helicopter pads, hangars, motor pools, and hardened bunkers dominate the layout.&lt;/p&gt;
+&lt;p&gt;Thermal efficiency is essential due to brutal winters. Central heating, often fueled by coal or wood, supports residential and operational buildings. Aircraft shelters and workshops are insulated to keep machinery operable year-round.&lt;/p&gt;
+&lt;p&gt;Core infrastructure includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Air Command and Helipad Complex&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Barracks and Air Cavalry Prep Hubs&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vehicle Parks and Maintenance Zones&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ammunition and Fuel Depots&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Logistics Warehouses and Control Center&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Medical Post and Engineering Facilities&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Observation and Anti-Air Towers&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;military-and-defense-1&quot; tabindex=&quot;-1&quot;&gt;Military and Defense&lt;/h3&gt;
+&lt;p&gt;The doctrine of Carfel is shaped around American-style combined arms mobility with air supremacy as its cornerstone. Light, mobile infantry are moved by helicopters like the &lt;strong&gt;Sikorsky H-34&lt;/strong&gt;, while ground support comes from fast-deployable vehicles and fixed anti-air platforms.&lt;/p&gt;
+&lt;p&gt;Key weapons include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;M1 Garand &amp;amp; M14 rifles&lt;/strong&gt; for standard infantry&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;M1919 and M2 Browning machine guns&lt;/strong&gt; for suppression and vehicle mounts&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;M20 Super Bazookas and recoilless rifles&lt;/strong&gt; for anti-armor roles&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;60mm and 81mm mortars&lt;/strong&gt; for indirect fire&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.50 cal AA mounts&lt;/strong&gt; on towers and helipads and AA defense&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Primary vehicles:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BV206&lt;/strong&gt;: The colony’s all-season workhorse for supply and expedition across snow, swamp, and rough terrain&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Willys Jeep and M151 MUTT&lt;/strong&gt;: Fast, nimble recon and utility roles&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;M35 2½-ton trucks&lt;/strong&gt;: Backbone of ground logistics&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;M37 Dodge Power Wagon&lt;/strong&gt;: Light cargo and personnel transport&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sikorsky H-34 helicopters&lt;/strong&gt;: Air cav, medevac, rapid deployment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The colony also maintains a defensive perimeter around the harbor. The 60mm and 81mm mortars and heavy machine guns are bolstered by fortified AA positions and radar-assisted spotting towers. Fuel reserves and backup helipads are located further inland, allowing for fallback options.&lt;/p&gt;
+&lt;h3 id=&quot;society-and-culture-1&quot; tabindex=&quot;-1&quot;&gt;Society and Culture&lt;/h3&gt;
+&lt;p&gt;Carfel’s culture is defined by readiness, cooperation, and strategic flexibility. With its military doctrine emphasizing vertical movement and expeditionary operations, colonists are trained not just to survive but to react and adapt at a moment’s notice. They maintain a strong identity of mutual dependence and technical mastery.&lt;/p&gt;
+&lt;p&gt;Daily life follows a rhythm of maintenance, training, and weather-based scheduling. Air crews, mechanics, medics, and engineers form tight, interdependent teams. Heavy snow during winter demands communal preparedness, while summer is a season of action with scouting, construction, patrols, and expansion.&lt;/p&gt;
+&lt;p&gt;Cultural traits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;High value on discipline and initiative&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Music and storytelling tied to aviation and exploration&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Respected roles for pilots, mechanics, and ground crew&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frontier resilience combined with military precision&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Carfel is wary of alliances but always watching for opportunities. Peaceful contact is preferred, but the colony is built for survival first, diplomacy second.&lt;/p&gt;
+&lt;h3 id=&quot;strategic-situation-1&quot; tabindex=&quot;-1&quot;&gt;Strategic Situation&lt;/h3&gt;
+&lt;p&gt;Carfel is a small but highly mobile and defensible outpost in a dangerous world. Neighboring factions, including the Dwarfs, Elves, Skaven, and Beastmen, pose ongoing threats. However, none can match Carfel’s vertical mobility and ability to project force in hard-to-reach regions. The use of helicopters allows Carfel to strike, supply, and evacuate faster than nearly any local force.&lt;/p&gt;
+&lt;p&gt;Its key strengths:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Vertical deployment and air logistics&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Winter-viable land vehicles (BV206)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Effective defensive coverage via artillery batterys and AA guns&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-reliance through structured planning and rotating stockpiles&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Carfel is not a dominant power, but a hardened, mobile, and strategically aware enclave capable of punching far above its weight. With careful planning and continued innovation, it may one day become a leading force among the human enclaves in this fractured, ancient world.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;umeokopings-colony&quot; tabindex=&quot;-1&quot;&gt;UmeoKopings Colony&lt;/h2&gt;
+&lt;h3 id=&quot;foundation-and-purpose-2&quot; tabindex=&quot;-1&quot;&gt;Foundation and Purpose&lt;/h3&gt;
+&lt;p&gt;UmeoKoping was established with the mission of creating a dependable, agriculturally focused stronghold capable of feeding and supporting nearby colonies such as SmolSwede and Carfel. Built using pre-1960s technology—primarily from the Commonwealth and British arsenals—UmeoKoping operates with a philosophy rooted in sustainability, long-term provisioning, and defensive reliability rather than aggressive projection of force.&lt;/p&gt;
+&lt;p&gt;The colony’s purpose is not conquest but cultivation. While it maintains a sturdy militia and protective infrastructure, its heart lies in the soil: grain silos, irrigation channels, greenhouses, and animal husbandry define its character. UmeoKoping is seen as the breadbasket of the northern colonies, supplying food and basic goods during the critical winter months and bridging supply gaps when resupply convoys are delayed or threatened.&lt;/p&gt;
+&lt;p&gt;UmeoKoping was founded in an expansive river valley near the ocean, with fertile plains and a patchwork of gentle hills providing excellent agricultural potential. Access to the coast enables shipping routes, and nearby rivers support both irrigation and trade.&lt;/p&gt;
+&lt;h3 id=&quot;geography-and-infrastructure-2&quot; tabindex=&quot;-1&quot;&gt;Geography and Infrastructure&lt;/h3&gt;
+&lt;p&gt;UmeoKoping’s layout is built around function and the rhythm of the seasons. The core of the settlement is composed of granaries, root cellars, food storage depots, windmill-powered processing facilities, and reinforced greenhouses heated during the harsh winter months. Barns, machine shops, and livestock corrals are interwoven with communal housing and administrative structures built in the durable architectural style of the 1930s.&lt;/p&gt;
+&lt;p&gt;Irrigation systems and open channels, some fed by hand pumps and others gravity-driven, help maintain crops through the dry autumn. Winters are long and fierce, with temperatures plunging as low as –40°C, so most construction emphasizes insulation, passive heating, and communal warmth via district or central heating systems powered by wood and coal.&lt;/p&gt;
+&lt;p&gt;Key infrastructure includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Grain and root vegetable silos&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Livestock enclosures and dairy facilities&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Windmills and wood-fired kilns for processing&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Heavy-duty workshops for maintaining vehicles and tools&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A small harbor with dock cranes and cold-storage warehouses&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A centralized medical and veterinary station&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A cobbled town square for trade, announcements, and logistics coordination&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Residential homes are built for warmth and utility—timber-framed or stone-walled, often with cellars for winter storage. Many homes are connected to greenhouses or tool sheds, reinforcing the dual domestic-agricultural nature of the colony.&lt;/p&gt;
+&lt;h3 id=&quot;military-and-defense-2&quot; tabindex=&quot;-1&quot;&gt;Military and Defense&lt;/h3&gt;
+&lt;p&gt;While UmeoKoping is not focused on military operations, it maintains a competent militia supported by Commonwealth and British weapons and vehicles suitable for home defense, patrol, and logistics. Defensive structures are concentrated near the harbor and along the roads leading into the agricultural basin. Anti-air platforms are stationed on nearby hills, doubling as watchpoints.&lt;/p&gt;
+&lt;p&gt;Core infantry weapons include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Lee-Enfield rifles&lt;/strong&gt; for standard defense&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bren light machine guns&lt;/strong&gt; for mobile suppression&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sten and Sterling SMGs&lt;/strong&gt; for close-quarters defense&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PIAT anti-tank weapons&lt;/strong&gt; for emergencies&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2-inch and 3-inch mortars&lt;/strong&gt; for light indirect fire&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Key vehicles:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Bedford QL trucks&lt;/strong&gt;: multipurpose transport and supply&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dodge ¾-ton trucks&lt;/strong&gt; (Commonwealth pattern): used for livestock, crop hauling, and personnel movement&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Universal/Bren Carriers&lt;/strong&gt;: for light recon and escort&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Terrängbil m/42 KP&lt;/strong&gt; (retained from Swedish stock): used for year-round patrols and winter logistics&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bandvagn 206 (BV206)&lt;/strong&gt;: All-season utility vehicle for navigating swamps and snow in remote farms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Air defense is limited but functional, relying on &lt;strong&gt;KPV heavy machine guns&lt;/strong&gt; in dual-purpose mounts and a handful of &lt;strong&gt;Bofors 40mm guns&lt;/strong&gt;, maintained for both anti-aircraft and anti-light-armor roles.&lt;/p&gt;
+&lt;h3 id=&quot;society-and-culture-2&quot; tabindex=&quot;-1&quot;&gt;Society and Culture&lt;/h3&gt;
+&lt;p&gt;UmeoKoping’s society is built around cooperation, agriculture, and the stewardship of resources. Every citizen understands the stakes of failed harvests and the responsibility of keeping neighboring colonies supplied. This sense of purpose reinforces community spirit, patience, and pride in labor.&lt;/p&gt;
+&lt;p&gt;Seasonal rhythms govern life in the colony:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Spring and summer&lt;/strong&gt; are for planting, maintenance, and construction&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Autumn&lt;/strong&gt; is the season of harvest, preservation, and trade coordination&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Winter&lt;/strong&gt; is a time of inward focus—tool repair, training, planning, and storytelling by the fire&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cultural practices include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Seasonal festivals tied to planting and harvest&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shared meals after major logistical milestones&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Veteran respect for those in the logistics corps and drivers&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Heavy use of folk songs and practical music during work&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Children are taught trades from an early age like farming, carpentry, animal care and take part in simple militia drills to prepare them for future roles in the community.&lt;/p&gt;
+&lt;h3 id=&quot;strategic-situation-2&quot; tabindex=&quot;-1&quot;&gt;Strategic Situation&lt;/h3&gt;
+&lt;p&gt;UmeoKoping’s strength is not in offense but in sustainability. Its food stores make it a linchpin for the survival of other human colonies. This central role also makes it a target, especially during lean years or prolonged supply shortages. Beastmen, Skaven, or even organized factions such as the Empire of Man could see the colony as a strategic asset worth seizing or raiding.&lt;/p&gt;
+&lt;p&gt;Key advantages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fertile, productive land&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Robust, well-practiced logistics system&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hardy vehicles for all-weather operation&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A loyal and cooperative population&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simple but resilient infrastructure for food processing and storage&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Despite its pacifistic appearance, UmeoKoping has prepared for crisis. Its militia is drilled, its roads are reinforced for quick evacuation or reinforcement, and its winter greenhouses are hardened against siege. If needed, UmeoKoping can serve as a fallback location for wounded, hungry, or displaced colonists from neighboring outposts.&lt;/p&gt;
+&lt;p&gt;Its long-term challenge will be maintaining this balance of productivity and defense in a world growing more volatile each season.&lt;/p&gt;
+&lt;hr&gt;
+
+  &lt;/article&gt;
+&lt;/div&gt;
+ is a variable passed to the template engine in 11ty. (The content is taken from the page to be used) -->
+      <!-- The safe filter is used to prevent escaping of HTML tags in the content. -->
+      <div class="subGridContainer">
+  <aside class="sideNav">
+    <nav class="toc">
+        <ol><li><a href="#smolswedes-colony">SmolSwedes Colony</a><ol><li><a href="#foundation-and-purpose">Foundation and Purpose</a></li><li><a href="#geography-and-infrastructure">Geography and Infrastructure</a></li><li><a href="#military-and-defense">Military and Defense</a></li><li><a href="#society-and-culture">Society and Culture</a></li><li><a href="#strategic-situation">Strategic Situation</a></li></ol></li><li><a href="#carfels-colony">Carfels colony</a><ol><li><a href="#foundation-and-purpose-1">Foundation and Purpose</a></li><li><a href="#geography-and-infrastructure-1">Geography and Infrastructure</a></li><li><a href="#military-and-defense-1">Military and Defense</a></li><li><a href="#society-and-culture-1">Society and Culture</a></li><li><a href="#strategic-situation-1">Strategic Situation</a></li></ol></li><li><a href="#umeokopings-colony">UmeoKopings Colony</a><ol><li><a href="#foundation-and-purpose-2">Foundation and Purpose</a></li><li><a href="#geography-and-infrastructure-2">Geography and Infrastructure</a></li><li><a href="#military-and-defense-2">Military and Defense</a></li><li><a href="#society-and-culture-2">Society and Culture</a></li><li><a href="#strategic-situation-2">Strategic Situation</a></li></ol></li></ol>
+      </nav>
+  </aside>
+  <article class="subContent">
+    <h1 id="the-colonies-%E2%80%93-a-comprehensive-summary" tabindex="-1">The Colonies – A Comprehensive Summary</h1>
+<h2 id="smolswedes-colony" tabindex="-1">SmolSwedes Colony</h2>
+<h3 id="foundation-and-purpose" tabindex="-1">Foundation and Purpose</h3>
+<p>SmolSwede was established as the industrial heart of the regional human colonization effort. Its primary directive is the extraction, processing,
+and refinement of natural resources into usable goods. This includes timber, coal, iron ore, rare minerals, natural gas, and crude oil.
+SmolSwede plays a vital role in supporting both the agriculturally-focused colony of UmeoKöping and the air-mobile, transport-heavy colony of Carfel by providing machinery,
+refined fuels, tools, mechanical parts, and basic industrial materials.</p>
+<p>But while SmolSwede is a production colony, it is far from a bleak utilitarian sprawl. The colony combines functionality with aesthetic values, emphasizing clean lines,
+timber and stone construction, generous windows, communal spaces, and elegant integration into the surrounding landscape. Beauty is valued, not as a luxury,
+but as a core part of resilience and morale especially during the harsh winter months when the environment becomes both a challenge and a test of spirit.</p>
+<p>From its inception, the colony emphasized self-reliance. Every workshop, refinery, or mill is backed by local repair stations, material stockpiles, and training schools.
+As supply convoys only arrive twice per year, SmolSwede's philosophy is: “Build it once. Maintain it forever.”</p>
+<h3 id="geography-and-infrastructure" tabindex="-1">Geography and Infrastructure</h3>
+<p>The colony is situated along a large ocean, nestled in a natural harbor that provides ideal conditions for ship-based trade, defense, and fishing.
+Two hills at the harbor entrance host fortified defensive batteries, including M1900 5-inch coastal/AA guns. Inland, a network of rivers provides fresh water,
+transportation corridors, and power generation opportunities.</p>
+<p>The terrain varies from hilly, forested regions close to the coast, with a mixture of dense pinewoods, rocky ridges, and deep valleys.
+Rich veins of iron, copper, and coal lie within the nearby highlands. A few kilometers inland, crude oil and gas deposits have been found and are actively drilled,
+with lines leading to central tank farms and small-scale refineries. The coastal access allows for the export of finished goods and the import of necessary supplies or equipment.
+Rail and heavy roadways link the mines, lumber camps, and factories with the harbor, forming a web of logistic efficiency.</p>
+<p>Buildings follow a strict building code, emphasizing durable, weather-resistant materials, local timber, stone, and simple concrete.
+Thermal insulation is a priority due to the long, brutal winters. Central heating systems, often wood or coal-fueled, warm residential and work buildings.</p>
+<p>Key structures include:</p>
+<ul>
+<li><strong>Central Administrative Hub</strong></li>
+<li><strong>Storage Warehouses (Food, Equipment, Ammunition)</strong></li>
+<li><strong>Medical and Engineering Facilities</strong></li>
+<li><strong>Workshops and Armories</strong></li>
+<li><strong>Longhouse-style Barracks</strong></li>
+<li><strong>Harbor Crane and Dockworks</strong></li>
+<li><strong>Powerhouses for Heating/Energy</strong></li>
+</ul>
+<h3 id="military-and-defense" tabindex="-1">Military and Defense</h3>
+<p>SmolSwede is prepared for defense but avoids militarization beyond what is necessary to protect its industries and citizens. The militia is composed of factory workers,
+engineers, miners, and drivers who rotate into defense roles when needed. Fortifications guard the harbor, refinery, and highland passes leading into the mining zones.
+The primary small arm is the Ljungman AG/42 semi-automatic rifle, supported by KPV heavy machine guns for anti-air and ground defense. For heavier firepower,
+the colony fields both <strong>Granatkastare m/41 mortars</strong> and <strong>Carl Gustaf 84mm recoilless rifles</strong>, creating a flexible mix of indirect and anti-armor capabilities.
+These weapons provide sufficient force against both organized humanoid factions and larger beast threats.</p>
+<p>Vehicles include:</p>
+<ul>
+<li><strong>Bandvagn 202</strong>: All-terrain, year-round utility and logistics vehicle.</li>
+<li><strong>PBV 302 with KPV</strong>: Armored troop carrier for patrols and response.</li>
+<li><strong>Terrängbil m/42 KP</strong>: Wheeled armored personnel carrier.</li>
+<li><strong>Volvo Raptgb 915 &amp; Volvo TVC</strong>: General-purpose transport.</li>
+<li><strong>Bren Carriers</strong>: Light recon and expedition platforms.</li>
+</ul>
+<p>Defensive structures have been reinforced beyond the initial settlement phase, particularly at coastal choke points.
+Air defenses include several <strong>KPV emplacements</strong> and <strong>M1900 5-inch guns</strong> positioned for dual-use as anti-air and coastal defense.
+Radar and acoustic detection stations help monitor long-range threats. KPVs are positioned on towers, vehicle mounts,
+and emplacements throughout the area for versatile fire support.</p>
+<h3 id="society-and-culture" tabindex="-1">Society and Culture</h3>
+<p>The colony operates under a structured, practical governance system. There is an emphasis on collective labor, seasonal preparation, and local autonomy.
+Knowledge-sharing and engineering competence are highly valued. Education is practical and field-oriented, focused on technical skills, survival, and frontier ethics.</p>
+<p>Culturally, the colony is utilitarian and tight-knit. Winters demand cooperation, while summers allow for expansion, planting, exploration, and construction.
+Music, storytelling, and historical awareness are common in leisure time, especially during the long, dark months. There's also a growing internal mythology
+around the surrounding wilderness, the dragons, and the unknown dangers beyond the colony’s reach. Art is common in the workplace: painted murals,
+finely crafted tool handles, and decorated machine casings elevate even the most utilitarian environment.</p>
+<p>Cultural norms include:</p>
+<ul>
+<li><strong>Weekly communal meals and concerts in winter</strong></li>
+<li><strong>Honoring retired workers and master craftsmen</strong></li>
+<li><strong>Public exhibitions of machinery, inventions, and models</strong></li>
+<li><strong>Seasonal holidays tied to harvests, refinery outputs, and industrial milestones</strong></li>
+</ul>
+<p>Trade and diplomacy with non-hostile factions are limited but possible. Scouting expeditions, interpreters, and resource-based exchanges are cautiously employed.</p>
+<h3 id="strategic-situation" tabindex="-1">Strategic Situation</h3>
+<p>SmolSwede is a vital industrial and logistical node. Its ability to produce machine parts, refined fuel, tools, weapons, and raw materials makes it a target for
+more aggressive factions. The Skaven, in particular, pose a constant threat due to their hunger for metal, fuel, and industrial secrets.
+Beastmen and roaming warbands from other human factions may seek to plunder the colony’s stores or seize its factories intact.</p>
+<p>Strategic advantages:</p>
+<ul>
+<li><strong>Vertical integration from raw extraction to final product</strong></li>
+<li><strong>Cold-weather capable transport and manufacturing</strong></li>
+<li><strong>Reliable, low-maintenance equipment</strong></li>
+<li><strong>Self-reliance in both food and fuel for key personnel</strong></li>
+<li><strong>Strong natural defenses from hills and forest lines</strong></li>
+<li><strong>Robust trade and coordination with Carfel and UmeoKöping</strong></li>
+</ul>
+<p>The settlers are not conquerors, but survivors and builders. If provoked, they can defend themselves. If allowed, they can grow into a powerful force capable of influencing the world around them. Over time, through careful expansion, technology application, and strategic alliances or deterrents, the colony might evolve into a strong regional power.</p>
+<p>But until then, it remains a stubborn beacon of industrial-age defiance in a mythic, dangerous world.</p>
+<hr>
+<h2 id="carfels-colony" tabindex="-1">Carfels colony</h2>
+<h3 id="foundation-and-purpose-1" tabindex="-1">Foundation and Purpose</h3>
+<p>The colony of Carfel was founded with a clear objective: to establish a self-sustaining, strategically mobile foothold in a volatile and ancient world filled with diverse, often hostile factions. Built with pre-1960s technology, the colony's logistics, transport, and weaponry are largely based on American Cold War-era standards—with a strong emphasis on air mobility, rapid deployment, and flexible logistics inspired by the Vietnam War model.</p>
+<p>Carfel’s settlers brought with them a doctrine prioritizing air assault, vertical resupply, and the ability to reach hard-to-access locations with helicopters and light vehicles. Limited to two supply drops per year, Carfel’s population relies heavily on pre-positioned supplies, multipurpose gear, and consistent internal production to thrive.</p>
+<p>The site chosen was a naturally defensible coastal inlet with direct access to deep ocean, inland terrain, and river deltas. Its placement supports both amphibious and aerial operations, with room for multiple landing zones and outposts across the varied terrain.</p>
+<h3 id="geography-and-infrastructure-1" tabindex="-1">Geography and Infrastructure</h3>
+<p>Carfel is nestled along a rugged coastline, with a natural harbor shielded on one side by a defensible hill now converted into strongpoints. Beyond the coastal edge, the land opens up into mixed forest and flat plains with smaller river branches flowing inland. The terrain offers valuable timber, clean water, fertile ground, and natural sites for airstrips, helicopter pads, and vertical-lift infrastructure.</p>
+<p>Carfel’s building code reflects 1930s technological standards—no advanced modern materials or automated systems—but optimized for resilience and speed of construction. Reinforced concrete, sandbag structures, and locally quarried stone are common. Helicopter pads, hangars, motor pools, and hardened bunkers dominate the layout.</p>
+<p>Thermal efficiency is essential due to brutal winters. Central heating, often fueled by coal or wood, supports residential and operational buildings. Aircraft shelters and workshops are insulated to keep machinery operable year-round.</p>
+<p>Core infrastructure includes:</p>
+<ul>
+<li><strong>Air Command and Helipad Complex</strong></li>
+<li><strong>Barracks and Air Cavalry Prep Hubs</strong></li>
+<li><strong>Vehicle Parks and Maintenance Zones</strong></li>
+<li><strong>Ammunition and Fuel Depots</strong></li>
+<li><strong>Logistics Warehouses and Control Center</strong></li>
+<li><strong>Medical Post and Engineering Facilities</strong></li>
+<li><strong>Observation and Anti-Air Towers</strong></li>
+</ul>
+<h3 id="military-and-defense-1" tabindex="-1">Military and Defense</h3>
+<p>The doctrine of Carfel is shaped around American-style combined arms mobility with air supremacy as its cornerstone. Light, mobile infantry are moved by helicopters like the <strong>Sikorsky H-34</strong>, while ground support comes from fast-deployable vehicles and fixed anti-air platforms.</p>
+<p>Key weapons include:</p>
+<ul>
+<li><strong>M1 Garand &amp; M14 rifles</strong> for standard infantry</li>
+<li><strong>M1919 and M2 Browning machine guns</strong> for suppression and vehicle mounts</li>
+<li><strong>M20 Super Bazookas and recoilless rifles</strong> for anti-armor roles</li>
+<li><strong>60mm and 81mm mortars</strong> for indirect fire</li>
+<li><strong>.50 cal AA mounts</strong> on towers and helipads and AA defense</li>
+</ul>
+<p>Primary vehicles:</p>
+<ul>
+<li><strong>BV206</strong>: The colony’s all-season workhorse for supply and expedition across snow, swamp, and rough terrain</li>
+<li><strong>Willys Jeep and M151 MUTT</strong>: Fast, nimble recon and utility roles</li>
+<li><strong>M35 2½-ton trucks</strong>: Backbone of ground logistics</li>
+<li><strong>M37 Dodge Power Wagon</strong>: Light cargo and personnel transport</li>
+<li><strong>Sikorsky H-34 helicopters</strong>: Air cav, medevac, rapid deployment</li>
+</ul>
+<p>The colony also maintains a defensive perimeter around the harbor. The 60mm and 81mm mortars and heavy machine guns are bolstered by fortified AA positions and radar-assisted spotting towers. Fuel reserves and backup helipads are located further inland, allowing for fallback options.</p>
+<h3 id="society-and-culture-1" tabindex="-1">Society and Culture</h3>
+<p>Carfel’s culture is defined by readiness, cooperation, and strategic flexibility. With its military doctrine emphasizing vertical movement and expeditionary operations, colonists are trained not just to survive but to react and adapt at a moment’s notice. They maintain a strong identity of mutual dependence and technical mastery.</p>
+<p>Daily life follows a rhythm of maintenance, training, and weather-based scheduling. Air crews, mechanics, medics, and engineers form tight, interdependent teams. Heavy snow during winter demands communal preparedness, while summer is a season of action with scouting, construction, patrols, and expansion.</p>
+<p>Cultural traits:</p>
+<ul>
+<li><strong>High value on discipline and initiative</strong></li>
+<li><strong>Music and storytelling tied to aviation and exploration</strong></li>
+<li><strong>Respected roles for pilots, mechanics, and ground crew</strong></li>
+<li><strong>Frontier resilience combined with military precision</strong></li>
+</ul>
+<p>Carfel is wary of alliances but always watching for opportunities. Peaceful contact is preferred, but the colony is built for survival first, diplomacy second.</p>
+<h3 id="strategic-situation-1" tabindex="-1">Strategic Situation</h3>
+<p>Carfel is a small but highly mobile and defensible outpost in a dangerous world. Neighboring factions, including the Dwarfs, Elves, Skaven, and Beastmen, pose ongoing threats. However, none can match Carfel’s vertical mobility and ability to project force in hard-to-reach regions. The use of helicopters allows Carfel to strike, supply, and evacuate faster than nearly any local force.</p>
+<p>Its key strengths:</p>
+<ul>
+<li><strong>Vertical deployment and air logistics</strong></li>
+<li><strong>Winter-viable land vehicles (BV206)</strong></li>
+<li><strong>Effective defensive coverage via artillery batterys and AA guns</strong></li>
+<li><strong>Self-reliance through structured planning and rotating stockpiles</strong></li>
+</ul>
+<p>Carfel is not a dominant power, but a hardened, mobile, and strategically aware enclave capable of punching far above its weight. With careful planning and continued innovation, it may one day become a leading force among the human enclaves in this fractured, ancient world.</p>
+<hr>
+<h2 id="umeokopings-colony" tabindex="-1">UmeoKopings Colony</h2>
+<h3 id="foundation-and-purpose-2" tabindex="-1">Foundation and Purpose</h3>
+<p>UmeoKoping was established with the mission of creating a dependable, agriculturally focused stronghold capable of feeding and supporting nearby colonies such as SmolSwede and Carfel. Built using pre-1960s technology—primarily from the Commonwealth and British arsenals—UmeoKoping operates with a philosophy rooted in sustainability, long-term provisioning, and defensive reliability rather than aggressive projection of force.</p>
+<p>The colony’s purpose is not conquest but cultivation. While it maintains a sturdy militia and protective infrastructure, its heart lies in the soil: grain silos, irrigation channels, greenhouses, and animal husbandry define its character. UmeoKoping is seen as the breadbasket of the northern colonies, supplying food and basic goods during the critical winter months and bridging supply gaps when resupply convoys are delayed or threatened.</p>
+<p>UmeoKoping was founded in an expansive river valley near the ocean, with fertile plains and a patchwork of gentle hills providing excellent agricultural potential. Access to the coast enables shipping routes, and nearby rivers support both irrigation and trade.</p>
+<h3 id="geography-and-infrastructure-2" tabindex="-1">Geography and Infrastructure</h3>
+<p>UmeoKoping’s layout is built around function and the rhythm of the seasons. The core of the settlement is composed of granaries, root cellars, food storage depots, windmill-powered processing facilities, and reinforced greenhouses heated during the harsh winter months. Barns, machine shops, and livestock corrals are interwoven with communal housing and administrative structures built in the durable architectural style of the 1930s.</p>
+<p>Irrigation systems and open channels, some fed by hand pumps and others gravity-driven, help maintain crops through the dry autumn. Winters are long and fierce, with temperatures plunging as low as –40°C, so most construction emphasizes insulation, passive heating, and communal warmth via district or central heating systems powered by wood and coal.</p>
+<p>Key infrastructure includes:</p>
+<ul>
+<li><strong>Grain and root vegetable silos</strong></li>
+<li><strong>Livestock enclosures and dairy facilities</strong></li>
+<li><strong>Windmills and wood-fired kilns for processing</strong></li>
+<li><strong>Heavy-duty workshops for maintaining vehicles and tools</strong></li>
+<li><strong>A small harbor with dock cranes and cold-storage warehouses</strong></li>
+<li><strong>A centralized medical and veterinary station</strong></li>
+<li><strong>A cobbled town square for trade, announcements, and logistics coordination</strong></li>
+</ul>
+<p>Residential homes are built for warmth and utility—timber-framed or stone-walled, often with cellars for winter storage. Many homes are connected to greenhouses or tool sheds, reinforcing the dual domestic-agricultural nature of the colony.</p>
+<h3 id="military-and-defense-2" tabindex="-1">Military and Defense</h3>
+<p>While UmeoKoping is not focused on military operations, it maintains a competent militia supported by Commonwealth and British weapons and vehicles suitable for home defense, patrol, and logistics. Defensive structures are concentrated near the harbor and along the roads leading into the agricultural basin. Anti-air platforms are stationed on nearby hills, doubling as watchpoints.</p>
+<p>Core infantry weapons include:</p>
+<ul>
+<li><strong>Lee-Enfield rifles</strong> for standard defense</li>
+<li><strong>Bren light machine guns</strong> for mobile suppression</li>
+<li><strong>Sten and Sterling SMGs</strong> for close-quarters defense</li>
+<li><strong>PIAT anti-tank weapons</strong> for emergencies</li>
+<li><strong>2-inch and 3-inch mortars</strong> for light indirect fire</li>
+</ul>
+<p>Key vehicles:</p>
+<ul>
+<li><strong>Bedford QL trucks</strong>: multipurpose transport and supply</li>
+<li><strong>Dodge ¾-ton trucks</strong> (Commonwealth pattern): used for livestock, crop hauling, and personnel movement</li>
+<li><strong>Universal/Bren Carriers</strong>: for light recon and escort</li>
+<li><strong>Terrängbil m/42 KP</strong> (retained from Swedish stock): used for year-round patrols and winter logistics</li>
+<li><strong>Bandvagn 206 (BV206)</strong>: All-season utility vehicle for navigating swamps and snow in remote farms</li>
+</ul>
+<p>Air defense is limited but functional, relying on <strong>KPV heavy machine guns</strong> in dual-purpose mounts and a handful of <strong>Bofors 40mm guns</strong>, maintained for both anti-aircraft and anti-light-armor roles.</p>
+<h3 id="society-and-culture-2" tabindex="-1">Society and Culture</h3>
+<p>UmeoKoping’s society is built around cooperation, agriculture, and the stewardship of resources. Every citizen understands the stakes of failed harvests and the responsibility of keeping neighboring colonies supplied. This sense of purpose reinforces community spirit, patience, and pride in labor.</p>
+<p>Seasonal rhythms govern life in the colony:</p>
+<ul>
+<li><strong>Spring and summer</strong> are for planting, maintenance, and construction</li>
+<li><strong>Autumn</strong> is the season of harvest, preservation, and trade coordination</li>
+<li><strong>Winter</strong> is a time of inward focus—tool repair, training, planning, and storytelling by the fire</li>
+</ul>
+<p>Cultural practices include:</p>
+<ul>
+<li><strong>Seasonal festivals tied to planting and harvest</strong></li>
+<li><strong>Shared meals after major logistical milestones</strong></li>
+<li><strong>Veteran respect for those in the logistics corps and drivers</strong></li>
+<li><strong>Heavy use of folk songs and practical music during work</strong></li>
+</ul>
+<p>Children are taught trades from an early age like farming, carpentry, animal care and take part in simple militia drills to prepare them for future roles in the community.</p>
+<h3 id="strategic-situation-2" tabindex="-1">Strategic Situation</h3>
+<p>UmeoKoping’s strength is not in offense but in sustainability. Its food stores make it a linchpin for the survival of other human colonies. This central role also makes it a target, especially during lean years or prolonged supply shortages. Beastmen, Skaven, or even organized factions such as the Empire of Man could see the colony as a strategic asset worth seizing or raiding.</p>
+<p>Key advantages:</p>
+<ul>
+<li><strong>Fertile, productive land</strong></li>
+<li><strong>Robust, well-practiced logistics system</strong></li>
+<li><strong>Hardy vehicles for all-weather operation</strong></li>
+<li><strong>A loyal and cooperative population</strong></li>
+<li><strong>Simple but resilient infrastructure for food processing and storage</strong></li>
+</ul>
+<p>Despite its pacifistic appearance, UmeoKoping has prepared for crisis. Its militia is drilled, its roads are reinforced for quick evacuation or reinforcement, and its winter greenhouses are hardened against siege. If needed, UmeoKoping can serve as a fallback location for wounded, hungry, or displaced colonists from neighboring outposts.</p>
+<p>Its long-term challenge will be maintaining this balance of productivity and defense in a world growing more volatile each season.</p>
+<hr>
+
+  </article>
+</div>
+
+    </main>
+    <div>
+      <a class="backToTop" href="#top">Top of page</a>
+    </div>
+    <footer class="footer">
+      <p>&copy; 2025 SmolSwede</p>
+      <p>SWBI Headquarters – <a href="/contactForm/">Contact us here.</a></p>
+      <p><em>Powered by logistics, reason, and 20th-century steel.</em></p>
+    </footer>
+  </body>
+</html>
