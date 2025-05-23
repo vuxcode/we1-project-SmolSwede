@@ -1,24 +1,57 @@
-name: Build Elevnety
+# This is a GitHub Actions workflow file.
+# It defines the steps to build and deploy the Eleventy site automatically on each push to the repository.
 
-on: [push]
+name: Build Eleventy # The name of the workflow, as it will appear in the GitHub Actions tab.
+
+on: [push] # Triggers the workflow for every push to any branch.
+
+
+# This restricts permissions for the GITHUB_TOKEN used in the workflow.
+# "contents: write" is required so the workflow can push to the gh-pages branch.
+permissions:
+  contents: write 
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  build: # Defines a job named "build".
+    runs-on: ubuntu-latest # The job will run on the latest available version of Ubuntu. 
     steps:
-      - uses: actions/checkout@master
-      - name: Build using node.js
-        uses: actions/setup-node@v1
+      # Checks out the code from the repository so that the workflow can access it.
+      - uses: actions/checkout@v4
+
+      # Sets up Node.js (version 20.x LTS) 
+      - uses: actions/setup-node@v4
         with:
-          node-version: '22.x'
+          node-version: '20.x'
+
+      # Caches npm's package directory to speed up install times on subsequent runs.
+      - name: Cache node modules
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      # Install all dependencies listed in package.json.
       - run: npm install
-      - run: npm install @11ty/eleventy # Installs eleventy
-      - name: npm eleventy
-        run: npx eleventy --version # Ensure eleventy is installed and executable
+
+      # Installs the Eleventy static site generator as a local dependency.
+      - run: npm install @11ty/eleventy
+
+      # Checks that Eleventy was installed and is executable.
+      - run: npx eleventy --version
+
+      # Runs the project's build script, if defined in package.json.
+      # The "--if-present" flag means this step is skipped if there is no build script.
       - run: npm run build --if-present
+
+      # Deploys the site to the "gh-pages" branch using the peaceiris/actions-gh-pages action.
+      # "github_token" uses the automatically provided GITHUB_TOKEN secret for authentication.
+      # "publish_dir" is the folder to deploy (adjust if your build output directory is different).
+      # "publish_branch" is the branch to which the site will be deployed
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        env:
-          PUBLISH_DIR: public
-          PUBLISH_BRANCH: gh-pages
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: public
+          publish_branch: gh-pages
