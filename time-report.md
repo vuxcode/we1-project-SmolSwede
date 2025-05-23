@@ -53,3 +53,7 @@ For example:
 ## 2025-05-22 18.30 -> 22.10 | 3h 10min | An epic battle with GitHub Actions, GitHub Pages and some cheating with Copilot to understand both a little better
   - Added a GitHub Actions document and wrestled with it for awhile.
   - I also stole everyting and put it a diffrent Repo where I HAVE UNLIMITED POWER (casts ligtning all over the place) and it now works for the most part.
+
+## 2025-05-23 08.30 -> 10.50 | 2h 20min | Updated the bug-list and started on the summary of this project.
+  - Updated the bug-list with the problems with GitHub Pages and Pictures not working corectly.
+  - Started writing the project summary.
